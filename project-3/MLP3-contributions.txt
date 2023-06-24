@@ -1,0 +1,28 @@
+Brandon Sladek:
+    - NeuralNetwork base class implementation
+    - MLPNetwork class implementation
+    - ExperimentRunner class implementation
+    - Logger class implementation
+    - P2API class implementation
+    - helped with RBFNetwork implementation and debugging
+    - lots of debugging and fixing various issues as they came up
+    - ran many, many experiments and stored results in experiment_runner/logs dir
+    - helped write various sections of the report and do overall editing
+    - made demo video
+
+Jared Thompson:
+    - RBFNetwork class implementation
+    - paper edits
+    - various debugging
+    
+Kyle Hagerman: 
+    - Optimizing and running k-nearest neighbor code to run for RBF network
+    - focused on k-medoids but also looked into enn, cnn, and k-means
+    - ran most of the RBF network code for data
+    - edited paper
+    
+Ryan Hansen:
+    - Did not implement any new code, focused on writing
+    - Design Doc
+    - Paper (Rigorous justification for algorithms + citations)
+    - k-means RBF test

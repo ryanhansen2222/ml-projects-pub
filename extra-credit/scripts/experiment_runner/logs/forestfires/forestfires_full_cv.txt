@@ -1,0 +1,750 @@
+running EC Experiment from ExperimentRunner...
+
+INFO: hyperparams: 
+	max_iterations: 20
+	batch_size: 4
+	eta: 2
+	layer_activation_funcs: ['sigmoid']
+	layer_sizes_display: [12, 12]
+	use_momentum: False
+	momentum_beta: 0.9
+
+INFO: data_set_name: 	forestfires
+
+INFO: raw data: 
+
+     X  Y month  day  FFMC    DMC     DC   ISI  temp  RH  wind  rain  CLASS
+0    7  5   mar  fri  86.2   26.2   94.3   5.1   8.2  51   6.7   0.0   0.00
+1    7  4   oct  tue  90.6   35.4  669.1   6.7  18.0  33   0.9   0.0   0.00
+2    7  4   oct  sat  90.6   43.7  686.9   6.7  14.6  33   1.3   0.0   0.00
+3    8  6   mar  fri  91.7   33.3   77.5   9.0   8.3  97   4.0   0.2   0.00
+4    8  6   mar  sun  89.3   51.3  102.2   9.6  11.4  99   1.8   0.0   0.00
+..  .. ..   ...  ...   ...    ...    ...   ...   ...  ..   ...   ...    ...
+512  4  3   aug  sun  81.6   56.7  665.6   1.9  27.8  32   2.7   0.0   6.44
+513  2  4   aug  sun  81.6   56.7  665.6   1.9  21.9  71   5.8   0.0  54.29
+514  7  4   aug  sun  81.6   56.7  665.6   1.9  21.2  70   6.7   0.0  11.16
+515  1  4   aug  sat  94.4  146.0  614.7  11.3  25.6  42   4.0   0.0   0.00
+516  6  3   nov  tue  79.5    3.0  106.7   1.1  11.8  31   4.5   0.0   0.00
+
+[517 rows x 13 columns], shape: (517, 13)
+
+INFO: ---------------------------------------------------------------------------------------------------
+
+INFO: preprocessed data: 
+
+         X         Y     month       day      FFMC       DMC        DC       ISI      temp        RH      wind     rain     CLASS
+0    0.750  0.428571  0.000000  0.000000  0.870968  0.086492  0.101325  0.090909  0.192926  0.423529  0.700000  0.00000  0.000000
+1    0.750  0.285714  0.090909  0.166667  0.927742  0.118194  0.775419  0.119430  0.508039  0.211765  0.055556  0.00000  0.000000
+2    0.750  0.285714  0.090909  0.333333  0.927742  0.146795  0.796294  0.119430  0.398714  0.211765  0.100000  0.00000  0.000000
+3    0.875  0.571429  0.000000  0.000000  0.941935  0.110958  0.081623  0.160428  0.196141  0.964706  0.400000  0.03125  0.000000
+4    0.875  0.571429  0.000000  0.500000  0.910968  0.172984  0.110590  0.171123  0.295820  0.988235  0.155556  0.00000  0.000000
+..     ...       ...       ...       ...       ...       ...       ...       ...       ...       ...       ...      ...       ...
+512  0.375  0.142857  0.181818  0.500000  0.811613  0.191592  0.771315  0.033868  0.823151  0.200000  0.255556  0.00000  0.005904
+513  0.125  0.285714  0.181818  0.500000  0.811613  0.191592  0.771315  0.033868  0.633441  0.658824  0.600000  0.00000  0.049769
+514  0.750  0.285714  0.181818  0.500000  0.811613  0.191592  0.771315  0.033868  0.610932  0.647059  0.700000  0.00000  0.010231
+515  0.000  0.285714  0.181818  0.333333  0.976774  0.499311  0.711622  0.201426  0.752412  0.317647  0.400000  0.00000  0.000000
+516  0.625  0.142857  1.000000  0.166667  0.784516  0.006547  0.115867  0.019608  0.308682  0.188235  0.455556  0.00000  0.000000
+
+[517 rows x 13 columns], shape: (517, 13)
+
+INFO: ---------------------------------------------------------------------------------------------------
+
+INFO: data_set_name: forestfires
+
+
+INFO: starting cv partition: 1...
+
+DEMO: building SAE with unsupervised pre-training...
+
+
+DEMO: adding auto-encoder layer of size: 9 ...
+
+DEMO: cv_partition: 1, iteration: 1, MSE: 0.0405
+DEMO: cv_partition: 1, iteration: 2, MSE: 0.03343
+DEMO: cv_partition: 1, iteration: 3, MSE: 0.03004
+DEMO: cv_partition: 1, iteration: 4, MSE: 0.02638
+DEMO: cv_partition: 1, iteration: 5, MSE: 0.02479
+DEMO: cv_partition: 1, iteration: 6, MSE: 0.02427
+DEMO: cv_partition: 1, iteration: 7, MSE: 0.02295
+DEMO: cv_partition: 1, iteration: 8, MSE: 0.02254
+DEMO: cv_partition: 1, iteration: 9, MSE: 0.02168
+DEMO: cv_partition: 1, iteration: 10, MSE: 0.02134
+DEMO: cv_partition: 1, iteration: 11, MSE: 0.0199
+DEMO: cv_partition: 1, iteration: 12, MSE: 0.02054
+DEMO: cv_partition: 1, iteration: 13, MSE: 0.01972
+DEMO: cv_partition: 1, iteration: 14, MSE: 0.01847
+DEMO: cv_partition: 1, iteration: 15, MSE: 0.01787
+DEMO: cv_partition: 1, iteration: 16, MSE: 0.01751
+DEMO: cv_partition: 1, iteration: 17, MSE: 0.01914
+DEMO: cv_partition: 1, iteration: 18, MSE: 0.01694
+DEMO: cv_partition: 1, iteration: 19, MSE: 0.01713
+DEMO: cv_partition: 1, iteration: 20, MSE: 0.01677
+
+DEMO: DONE BUILDING SAE NETWORK
+
+DEMO: pre-trained SAE network shape: [12, 9, 12]
+DEMO: pre-trained SAE network weights shape: [(9, 12), (12, 9)]
+DEMO: pre-trained SAE network biases shape: [(9, 1), (12, 1)]
+
+DEMO: appending MLP network for prediction...
+DEMO: FULL network shape (with MLP appended): [12, 9, 12, 12, 6, 1]
+DEMO: FULL network weights/biases --> wshape: [(9, 12), (12, 9), (12, 12), (6, 12), (1, 6)], bshape: [(9, 1), (12, 1), (12, 1), (6, 1), (1, 1)]
+
+DEMO: fine-tuning the full network using backpropagation...
+
+DEMO: cv_partition: 1, iteration: 1, error: 0.00941
+DEMO: cv_partition: 1, iteration: 2, error: 0.00944
+DEMO: cv_partition: 1, iteration: 3, error: 0.00946
+DEMO: cv_partition: 1, iteration: 4, error: 0.00948
+DEMO: cv_partition: 1, iteration: 5, error: 0.00949
+DEMO: cv_partition: 1, iteration: 6, error: 0.0095
+DEMO: cv_partition: 1, iteration: 7, error: 0.00951
+DEMO: cv_partition: 1, iteration: 8, error: 0.00952
+DEMO: cv_partition: 1, iteration: 9, error: 0.00953
+DEMO: cv_partition: 1, iteration: 10, error: 0.00953
+DEMO: cv_partition: 1, iteration: 11, error: 0.00954
+DEMO: cv_partition: 1, iteration: 12, error: 0.00955
+DEMO: cv_partition: 1, iteration: 13, error: 0.00955
+DEMO: cv_partition: 1, iteration: 14, error: 0.00956
+DEMO: cv_partition: 1, iteration: 15, error: 0.00956
+DEMO: cv_partition: 1, iteration: 16, error: 0.00956
+DEMO: cv_partition: 1, iteration: 17, error: 0.00957
+DEMO: cv_partition: 1, iteration: 18, error: 0.00957
+DEMO: cv_partition: 1, iteration: 19, error: 0.00957
+DEMO: cv_partition: 1, iteration: 20, error: 0.00957
+
+DEMO: cv_partition: 1, FINAL FULL NETWORK error: 0.00957
+
+INFO: starting cv partition: 2...
+
+DEMO: building SAE with unsupervised pre-training...
+
+
+DEMO: adding auto-encoder layer of size: 9 ...
+
+DEMO: cv_partition: 2, iteration: 1, MSE: 0.03063
+DEMO: cv_partition: 2, iteration: 2, MSE: 0.02472
+DEMO: cv_partition: 2, iteration: 3, MSE: 0.02377
+DEMO: cv_partition: 2, iteration: 4, MSE: 0.02118
+DEMO: cv_partition: 2, iteration: 5, MSE: 0.02001
+DEMO: cv_partition: 2, iteration: 6, MSE: 0.02089
+DEMO: cv_partition: 2, iteration: 7, MSE: 0.01828
+DEMO: cv_partition: 2, iteration: 8, MSE: 0.01949
+DEMO: cv_partition: 2, iteration: 9, MSE: 0.01682
+DEMO: cv_partition: 2, iteration: 10, MSE: 0.01598
+DEMO: cv_partition: 2, iteration: 11, MSE: 0.01602
+DEMO: cv_partition: 2, iteration: 12, MSE: 0.01599
+DEMO: cv_partition: 2, iteration: 13, MSE: 0.01507
+DEMO: cv_partition: 2, iteration: 14, MSE: 0.01735
+DEMO: cv_partition: 2, iteration: 15, MSE: 0.01566
+DEMO: cv_partition: 2, iteration: 16, MSE: 0.0152
+DEMO: cv_partition: 2, iteration: 17, MSE: 0.01453
+DEMO: cv_partition: 2, iteration: 18, MSE: 0.01472
+DEMO: cv_partition: 2, iteration: 19, MSE: 0.01408
+DEMO: cv_partition: 2, iteration: 20, MSE: 0.01434
+
+DEMO: DONE BUILDING SAE NETWORK
+
+DEMO: pre-trained SAE network shape: [12, 9, 12]
+DEMO: pre-trained SAE network weights shape: [(9, 12), (12, 9)]
+DEMO: pre-trained SAE network biases shape: [(9, 1), (12, 1)]
+
+DEMO: appending MLP network for prediction...
+DEMO: FULL network shape (with MLP appended): [12, 9, 12, 12, 6, 1]
+DEMO: FULL network weights/biases --> wshape: [(9, 12), (12, 9), (12, 12), (6, 12), (1, 6)], bshape: [(9, 1), (12, 1), (12, 1), (6, 1), (1, 1)]
+
+DEMO: fine-tuning the full network using backpropagation...
+
+DEMO: cv_partition: 2, iteration: 1, error: 0.00015
+DEMO: cv_partition: 2, iteration: 2, error: 0.00015
+DEMO: cv_partition: 2, iteration: 3, error: 0.00015
+DEMO: cv_partition: 2, iteration: 4, error: 0.00015
+DEMO: cv_partition: 2, iteration: 5, error: 0.00015
+DEMO: cv_partition: 2, iteration: 6, error: 0.00015
+DEMO: cv_partition: 2, iteration: 7, error: 0.00016
+DEMO: cv_partition: 2, iteration: 8, error: 0.00016
+DEMO: cv_partition: 2, iteration: 9, error: 0.00016
+DEMO: cv_partition: 2, iteration: 10, error: 0.00016
+DEMO: cv_partition: 2, iteration: 11, error: 0.00016
+DEMO: cv_partition: 2, iteration: 12, error: 0.00016
+DEMO: cv_partition: 2, iteration: 13, error: 0.00017
+DEMO: cv_partition: 2, iteration: 14, error: 0.00017
+DEMO: cv_partition: 2, iteration: 15, error: 0.00017
+DEMO: cv_partition: 2, iteration: 16, error: 0.00017
+DEMO: cv_partition: 2, iteration: 17, error: 0.00017
+DEMO: cv_partition: 2, iteration: 18, error: 0.00017
+DEMO: cv_partition: 2, iteration: 19, error: 0.00017
+DEMO: cv_partition: 2, iteration: 20, error: 0.00017
+
+DEMO: cv_partition: 2, FINAL FULL NETWORK error: 0.00017
+
+INFO: starting cv partition: 3...
+
+DEMO: building SAE with unsupervised pre-training...
+
+
+DEMO: adding auto-encoder layer of size: 9 ...
+
+DEMO: cv_partition: 3, iteration: 1, MSE: 0.03763
+DEMO: cv_partition: 3, iteration: 2, MSE: 0.03284
+DEMO: cv_partition: 3, iteration: 3, MSE: 0.0284
+DEMO: cv_partition: 3, iteration: 4, MSE: 0.02361
+DEMO: cv_partition: 3, iteration: 5, MSE: 0.0231
+DEMO: cv_partition: 3, iteration: 6, MSE: 0.02106
+DEMO: cv_partition: 3, iteration: 7, MSE: 0.02057
+DEMO: cv_partition: 3, iteration: 8, MSE: 0.0177
+DEMO: cv_partition: 3, iteration: 9, MSE: 0.01716
+DEMO: cv_partition: 3, iteration: 10, MSE: 0.01731
+DEMO: cv_partition: 3, iteration: 11, MSE: 0.01633
+DEMO: cv_partition: 3, iteration: 12, MSE: 0.01604
+DEMO: cv_partition: 3, iteration: 13, MSE: 0.015
+DEMO: cv_partition: 3, iteration: 14, MSE: 0.01675
+DEMO: cv_partition: 3, iteration: 15, MSE: 0.01441
+DEMO: cv_partition: 3, iteration: 16, MSE: 0.01395
+DEMO: cv_partition: 3, iteration: 17, MSE: 0.0143
+DEMO: cv_partition: 3, iteration: 18, MSE: 0.01458
+DEMO: cv_partition: 3, iteration: 19, MSE: 0.01259
+DEMO: cv_partition: 3, iteration: 20, MSE: 0.0128
+
+DEMO: DONE BUILDING SAE NETWORK
+
+DEMO: pre-trained SAE network shape: [12, 9, 12]
+DEMO: pre-trained SAE network weights shape: [(9, 12), (12, 9)]
+DEMO: pre-trained SAE network biases shape: [(9, 1), (12, 1)]
+
+DEMO: appending MLP network for prediction...
+DEMO: FULL network shape (with MLP appended): [12, 9, 12, 12, 6, 1]
+DEMO: FULL network weights/biases --> wshape: [(9, 12), (12, 9), (12, 12), (6, 12), (1, 6)], bshape: [(9, 1), (12, 1), (12, 1), (6, 1), (1, 1)]
+
+DEMO: fine-tuning the full network using backpropagation...
+
+DEMO: cv_partition: 3, iteration: 1, error: 0.00137
+DEMO: cv_partition: 3, iteration: 2, error: 0.00136
+DEMO: cv_partition: 3, iteration: 3, error: 0.00136
+DEMO: cv_partition: 3, iteration: 4, error: 0.00136
+DEMO: cv_partition: 3, iteration: 5, error: 0.00136
+DEMO: cv_partition: 3, iteration: 6, error: 0.00135
+DEMO: cv_partition: 3, iteration: 7, error: 0.00135
+DEMO: cv_partition: 3, iteration: 8, error: 0.00135
+DEMO: cv_partition: 3, iteration: 9, error: 0.00135
+DEMO: cv_partition: 3, iteration: 10, error: 0.00135
+DEMO: cv_partition: 3, iteration: 11, error: 0.00135
+DEMO: cv_partition: 3, iteration: 12, error: 0.00135
+DEMO: cv_partition: 3, iteration: 13, error: 0.00135
+DEMO: cv_partition: 3, iteration: 14, error: 0.00135
+DEMO: cv_partition: 3, iteration: 15, error: 0.00135
+DEMO: cv_partition: 3, iteration: 16, error: 0.00135
+DEMO: cv_partition: 3, iteration: 17, error: 0.00135
+DEMO: cv_partition: 3, iteration: 18, error: 0.00135
+DEMO: cv_partition: 3, iteration: 19, error: 0.00135
+DEMO: cv_partition: 3, iteration: 20, error: 0.00135
+
+DEMO: cv_partition: 3, FINAL FULL NETWORK error: 0.00135
+
+INFO: starting cv partition: 4...
+
+DEMO: building SAE with unsupervised pre-training...
+
+
+DEMO: adding auto-encoder layer of size: 9 ...
+
+DEMO: cv_partition: 4, iteration: 1, MSE: 0.02815
+DEMO: cv_partition: 4, iteration: 2, MSE: 0.0243
+DEMO: cv_partition: 4, iteration: 3, MSE: 0.02115
+DEMO: cv_partition: 4, iteration: 4, MSE: 0.02142
+DEMO: cv_partition: 4, iteration: 5, MSE: 0.01893
+DEMO: cv_partition: 4, iteration: 6, MSE: 0.01735
+DEMO: cv_partition: 4, iteration: 7, MSE: 0.01615
+DEMO: cv_partition: 4, iteration: 8, MSE: 0.01577
+DEMO: cv_partition: 4, iteration: 9, MSE: 0.01561
+DEMO: cv_partition: 4, iteration: 10, MSE: 0.01546
+DEMO: cv_partition: 4, iteration: 11, MSE: 0.01474
+DEMO: cv_partition: 4, iteration: 12, MSE: 0.01526
+DEMO: cv_partition: 4, iteration: 13, MSE: 0.01431
+DEMO: cv_partition: 4, iteration: 14, MSE: 0.01397
+DEMO: cv_partition: 4, iteration: 15, MSE: 0.01388
+DEMO: cv_partition: 4, iteration: 16, MSE: 0.014
+DEMO: cv_partition: 4, iteration: 17, MSE: 0.01323
+DEMO: cv_partition: 4, iteration: 18, MSE: 0.01303
+DEMO: cv_partition: 4, iteration: 19, MSE: 0.01262
+DEMO: cv_partition: 4, iteration: 20, MSE: 0.01267
+
+DEMO: DONE BUILDING SAE NETWORK
+
+DEMO: pre-trained SAE network shape: [12, 9, 12]
+DEMO: pre-trained SAE network weights shape: [(9, 12), (12, 9)]
+DEMO: pre-trained SAE network biases shape: [(9, 1), (12, 1)]
+
+DEMO: appending MLP network for prediction...
+DEMO: FULL network shape (with MLP appended): [12, 9, 12, 12, 6, 1]
+DEMO: FULL network weights/biases --> wshape: [(9, 12), (12, 9), (12, 12), (6, 12), (1, 6)], bshape: [(9, 1), (12, 1), (12, 1), (6, 1), (1, 1)]
+
+DEMO: fine-tuning the full network using backpropagation...
+
+DEMO: cv_partition: 4, iteration: 1, error: 0.0009
+DEMO: cv_partition: 4, iteration: 2, error: 0.00082
+DEMO: cv_partition: 4, iteration: 3, error: 0.00078
+DEMO: cv_partition: 4, iteration: 4, error: 0.00076
+DEMO: cv_partition: 4, iteration: 5, error: 0.00074
+DEMO: cv_partition: 4, iteration: 6, error: 0.00073
+DEMO: cv_partition: 4, iteration: 7, error: 0.00072
+DEMO: cv_partition: 4, iteration: 8, error: 0.00072
+DEMO: cv_partition: 4, iteration: 9, error: 0.00071
+DEMO: cv_partition: 4, iteration: 10, error: 0.00071
+DEMO: cv_partition: 4, iteration: 11, error: 0.0007
+DEMO: cv_partition: 4, iteration: 12, error: 0.0007
+DEMO: cv_partition: 4, iteration: 13, error: 0.0007
+DEMO: cv_partition: 4, iteration: 14, error: 0.0007
+DEMO: cv_partition: 4, iteration: 15, error: 0.0007
+DEMO: cv_partition: 4, iteration: 16, error: 0.00069
+DEMO: cv_partition: 4, iteration: 17, error: 0.00069
+DEMO: cv_partition: 4, iteration: 18, error: 0.00069
+DEMO: cv_partition: 4, iteration: 19, error: 0.00069
+DEMO: cv_partition: 4, iteration: 20, error: 0.00069
+
+DEMO: cv_partition: 4, FINAL FULL NETWORK error: 0.00069
+
+INFO: starting cv partition: 5...
+
+DEMO: building SAE with unsupervised pre-training...
+
+
+DEMO: adding auto-encoder layer of size: 9 ...
+
+DEMO: cv_partition: 5, iteration: 1, MSE: 0.03305
+DEMO: cv_partition: 5, iteration: 2, MSE: 0.02764
+DEMO: cv_partition: 5, iteration: 3, MSE: 0.02443
+DEMO: cv_partition: 5, iteration: 4, MSE: 0.02056
+DEMO: cv_partition: 5, iteration: 5, MSE: 0.01983
+DEMO: cv_partition: 5, iteration: 6, MSE: 0.01831
+DEMO: cv_partition: 5, iteration: 7, MSE: 0.01747
+DEMO: cv_partition: 5, iteration: 8, MSE: 0.01674
+DEMO: cv_partition: 5, iteration: 9, MSE: 0.0155
+DEMO: cv_partition: 5, iteration: 10, MSE: 0.01626
+DEMO: cv_partition: 5, iteration: 11, MSE: 0.01627
+DEMO: cv_partition: 5, iteration: 12, MSE: 0.0144
+DEMO: cv_partition: 5, iteration: 13, MSE: 0.01469
+DEMO: cv_partition: 5, iteration: 14, MSE: 0.01428
+DEMO: cv_partition: 5, iteration: 15, MSE: 0.01317
+DEMO: cv_partition: 5, iteration: 16, MSE: 0.01322
+DEMO: cv_partition: 5, iteration: 17, MSE: 0.013
+DEMO: cv_partition: 5, iteration: 18, MSE: 0.01261
+DEMO: cv_partition: 5, iteration: 19, MSE: 0.01301
+DEMO: cv_partition: 5, iteration: 20, MSE: 0.01209
+
+DEMO: DONE BUILDING SAE NETWORK
+
+DEMO: pre-trained SAE network shape: [12, 9, 12]
+DEMO: pre-trained SAE network weights shape: [(9, 12), (12, 9)]
+DEMO: pre-trained SAE network biases shape: [(9, 1), (12, 1)]
+
+DEMO: appending MLP network for prediction...
+DEMO: FULL network shape (with MLP appended): [12, 9, 12, 12, 6, 1]
+DEMO: FULL network weights/biases --> wshape: [(9, 12), (12, 9), (12, 12), (6, 12), (1, 6)], bshape: [(9, 1), (12, 1), (12, 1), (6, 1), (1, 1)]
+
+DEMO: fine-tuning the full network using backpropagation...
+
+DEMO: cv_partition: 5, iteration: 1, error: 0.01943
+DEMO: cv_partition: 5, iteration: 2, error: 0.01943
+DEMO: cv_partition: 5, iteration: 3, error: 0.01943
+DEMO: cv_partition: 5, iteration: 4, error: 0.01943
+DEMO: cv_partition: 5, iteration: 5, error: 0.01943
+DEMO: cv_partition: 5, iteration: 6, error: 0.01943
+DEMO: cv_partition: 5, iteration: 7, error: 0.01943
+DEMO: cv_partition: 5, iteration: 8, error: 0.01943
+DEMO: cv_partition: 5, iteration: 9, error: 0.01943
+DEMO: cv_partition: 5, iteration: 10, error: 0.01943
+DEMO: cv_partition: 5, iteration: 11, error: 0.01943
+DEMO: cv_partition: 5, iteration: 12, error: 0.01943
+DEMO: cv_partition: 5, iteration: 13, error: 0.01943
+DEMO: cv_partition: 5, iteration: 14, error: 0.01943
+DEMO: cv_partition: 5, iteration: 15, error: 0.01943
+DEMO: cv_partition: 5, iteration: 16, error: 0.01943
+DEMO: cv_partition: 5, iteration: 17, error: 0.01943
+DEMO: cv_partition: 5, iteration: 18, error: 0.01943
+DEMO: cv_partition: 5, iteration: 19, error: 0.01943
+DEMO: cv_partition: 5, iteration: 20, error: 0.01943
+
+DEMO: cv_partition: 5, FINAL FULL NETWORK error: 0.01943
+
+INFO: starting cv partition: 6...
+
+DEMO: building SAE with unsupervised pre-training...
+
+
+DEMO: adding auto-encoder layer of size: 9 ...
+
+DEMO: cv_partition: 6, iteration: 1, MSE: 0.02943
+DEMO: cv_partition: 6, iteration: 2, MSE: 0.02387
+DEMO: cv_partition: 6, iteration: 3, MSE: 0.02074
+DEMO: cv_partition: 6, iteration: 4, MSE: 0.01924
+DEMO: cv_partition: 6, iteration: 5, MSE: 0.0177
+DEMO: cv_partition: 6, iteration: 6, MSE: 0.01901
+DEMO: cv_partition: 6, iteration: 7, MSE: 0.01822
+DEMO: cv_partition: 6, iteration: 8, MSE: 0.01685
+DEMO: cv_partition: 6, iteration: 9, MSE: 0.01697
+DEMO: cv_partition: 6, iteration: 10, MSE: 0.01533
+DEMO: cv_partition: 6, iteration: 11, MSE: 0.01625
+DEMO: cv_partition: 6, iteration: 12, MSE: 0.01634
+DEMO: cv_partition: 6, iteration: 13, MSE: 0.01469
+DEMO: cv_partition: 6, iteration: 14, MSE: 0.01596
+DEMO: cv_partition: 6, iteration: 15, MSE: 0.01484
+DEMO: cv_partition: 6, iteration: 16, MSE: 0.01436
+DEMO: cv_partition: 6, iteration: 17, MSE: 0.0146
+DEMO: cv_partition: 6, iteration: 18, MSE: 0.01376
+DEMO: cv_partition: 6, iteration: 19, MSE: 0.01417
+DEMO: cv_partition: 6, iteration: 20, MSE: 0.01369
+
+DEMO: DONE BUILDING SAE NETWORK
+
+DEMO: pre-trained SAE network shape: [12, 9, 12]
+DEMO: pre-trained SAE network weights shape: [(9, 12), (12, 9)]
+DEMO: pre-trained SAE network biases shape: [(9, 1), (12, 1)]
+
+DEMO: appending MLP network for prediction...
+DEMO: FULL network shape (with MLP appended): [12, 9, 12, 12, 6, 1]
+DEMO: FULL network weights/biases --> wshape: [(9, 12), (12, 9), (12, 12), (6, 12), (1, 6)], bshape: [(9, 1), (12, 1), (12, 1), (6, 1), (1, 1)]
+
+DEMO: fine-tuning the full network using backpropagation...
+
+DEMO: cv_partition: 6, iteration: 1, error: 0.00071
+DEMO: cv_partition: 6, iteration: 2, error: 0.00071
+DEMO: cv_partition: 6, iteration: 3, error: 0.00071
+DEMO: cv_partition: 6, iteration: 4, error: 0.00071
+DEMO: cv_partition: 6, iteration: 5, error: 0.00071
+DEMO: cv_partition: 6, iteration: 6, error: 0.00071
+DEMO: cv_partition: 6, iteration: 7, error: 0.00071
+DEMO: cv_partition: 6, iteration: 8, error: 0.0007
+DEMO: cv_partition: 6, iteration: 9, error: 0.0007
+DEMO: cv_partition: 6, iteration: 10, error: 0.0007
+DEMO: cv_partition: 6, iteration: 11, error: 0.0007
+DEMO: cv_partition: 6, iteration: 12, error: 0.0007
+DEMO: cv_partition: 6, iteration: 13, error: 0.0007
+DEMO: cv_partition: 6, iteration: 14, error: 0.0007
+DEMO: cv_partition: 6, iteration: 15, error: 0.0007
+DEMO: cv_partition: 6, iteration: 16, error: 0.0007
+DEMO: cv_partition: 6, iteration: 17, error: 0.0007
+DEMO: cv_partition: 6, iteration: 18, error: 0.0007
+DEMO: cv_partition: 6, iteration: 19, error: 0.0007
+DEMO: cv_partition: 6, iteration: 20, error: 0.0007
+
+DEMO: cv_partition: 6, FINAL FULL NETWORK error: 0.0007
+
+INFO: starting cv partition: 7...
+
+DEMO: building SAE with unsupervised pre-training...
+
+
+DEMO: adding auto-encoder layer of size: 9 ...
+
+DEMO: cv_partition: 7, iteration: 1, MSE: 0.04101
+DEMO: cv_partition: 7, iteration: 2, MSE: 0.03318
+DEMO: cv_partition: 7, iteration: 3, MSE: 0.03094
+DEMO: cv_partition: 7, iteration: 4, MSE: 0.02941
+DEMO: cv_partition: 7, iteration: 5, MSE: 0.02898
+DEMO: cv_partition: 7, iteration: 6, MSE: 0.0243
+DEMO: cv_partition: 7, iteration: 7, MSE: 0.02351
+DEMO: cv_partition: 7, iteration: 8, MSE: 0.0225
+DEMO: cv_partition: 7, iteration: 9, MSE: 0.02168
+DEMO: cv_partition: 7, iteration: 10, MSE: 0.02022
+DEMO: cv_partition: 7, iteration: 11, MSE: 0.02028
+DEMO: cv_partition: 7, iteration: 12, MSE: 0.01917
+DEMO: cv_partition: 7, iteration: 13, MSE: 0.02062
+DEMO: cv_partition: 7, iteration: 14, MSE: 0.01961
+DEMO: cv_partition: 7, iteration: 15, MSE: 0.0177
+DEMO: cv_partition: 7, iteration: 16, MSE: 0.0173
+DEMO: cv_partition: 7, iteration: 17, MSE: 0.01778
+DEMO: cv_partition: 7, iteration: 18, MSE: 0.01787
+DEMO: cv_partition: 7, iteration: 19, MSE: 0.0174
+DEMO: cv_partition: 7, iteration: 20, MSE: 0.01691
+
+DEMO: DONE BUILDING SAE NETWORK
+
+DEMO: pre-trained SAE network shape: [12, 9, 12]
+DEMO: pre-trained SAE network weights shape: [(9, 12), (12, 9)]
+DEMO: pre-trained SAE network biases shape: [(9, 1), (12, 1)]
+
+DEMO: appending MLP network for prediction...
+DEMO: FULL network shape (with MLP appended): [12, 9, 12, 12, 6, 1]
+DEMO: FULL network weights/biases --> wshape: [(9, 12), (12, 9), (12, 12), (6, 12), (1, 6)], bshape: [(9, 1), (12, 1), (12, 1), (6, 1), (1, 1)]
+
+DEMO: fine-tuning the full network using backpropagation...
+
+DEMO: cv_partition: 7, iteration: 1, error: 0.00014
+DEMO: cv_partition: 7, iteration: 2, error: 0.00014
+DEMO: cv_partition: 7, iteration: 3, error: 0.00014
+DEMO: cv_partition: 7, iteration: 4, error: 0.00014
+DEMO: cv_partition: 7, iteration: 5, error: 0.00014
+DEMO: cv_partition: 7, iteration: 6, error: 0.00013
+DEMO: cv_partition: 7, iteration: 7, error: 0.00013
+DEMO: cv_partition: 7, iteration: 8, error: 0.00013
+DEMO: cv_partition: 7, iteration: 9, error: 0.00013
+DEMO: cv_partition: 7, iteration: 10, error: 0.00013
+DEMO: cv_partition: 7, iteration: 11, error: 0.00013
+DEMO: cv_partition: 7, iteration: 12, error: 0.00013
+DEMO: cv_partition: 7, iteration: 13, error: 0.00013
+DEMO: cv_partition: 7, iteration: 14, error: 0.00013
+DEMO: cv_partition: 7, iteration: 15, error: 0.00013
+DEMO: cv_partition: 7, iteration: 16, error: 0.00013
+DEMO: cv_partition: 7, iteration: 17, error: 0.00013
+DEMO: cv_partition: 7, iteration: 18, error: 0.00013
+DEMO: cv_partition: 7, iteration: 19, error: 0.00013
+DEMO: cv_partition: 7, iteration: 20, error: 0.00013
+
+DEMO: cv_partition: 7, FINAL FULL NETWORK error: 0.00013
+
+INFO: starting cv partition: 8...
+
+DEMO: building SAE with unsupervised pre-training...
+
+
+DEMO: adding auto-encoder layer of size: 9 ...
+
+DEMO: cv_partition: 8, iteration: 1, MSE: 0.03191
+DEMO: cv_partition: 8, iteration: 2, MSE: 0.02419
+DEMO: cv_partition: 8, iteration: 3, MSE: 0.02172
+DEMO: cv_partition: 8, iteration: 4, MSE: 0.01887
+DEMO: cv_partition: 8, iteration: 5, MSE: 0.01823
+DEMO: cv_partition: 8, iteration: 6, MSE: 0.01778
+DEMO: cv_partition: 8, iteration: 7, MSE: 0.01597
+DEMO: cv_partition: 8, iteration: 8, MSE: 0.01523
+DEMO: cv_partition: 8, iteration: 9, MSE: 0.01406
+DEMO: cv_partition: 8, iteration: 10, MSE: 0.01336
+DEMO: cv_partition: 8, iteration: 11, MSE: 0.01367
+DEMO: cv_partition: 8, iteration: 12, MSE: 0.01295
+DEMO: cv_partition: 8, iteration: 13, MSE: 0.01327
+DEMO: cv_partition: 8, iteration: 14, MSE: 0.01229
+DEMO: cv_partition: 8, iteration: 15, MSE: 0.01399
+DEMO: cv_partition: 8, iteration: 16, MSE: 0.01171
+DEMO: cv_partition: 8, iteration: 17, MSE: 0.01153
+DEMO: cv_partition: 8, iteration: 18, MSE: 0.01131
+DEMO: cv_partition: 8, iteration: 19, MSE: 0.01155
+DEMO: cv_partition: 8, iteration: 20, MSE: 0.011
+
+DEMO: DONE BUILDING SAE NETWORK
+
+DEMO: pre-trained SAE network shape: [12, 9, 12]
+DEMO: pre-trained SAE network weights shape: [(9, 12), (12, 9)]
+DEMO: pre-trained SAE network biases shape: [(9, 1), (12, 1)]
+
+DEMO: appending MLP network for prediction...
+DEMO: FULL network shape (with MLP appended): [12, 9, 12, 12, 6, 1]
+DEMO: FULL network weights/biases --> wshape: [(9, 12), (12, 9), (12, 12), (6, 12), (1, 6)], bshape: [(9, 1), (12, 1), (12, 1), (6, 1), (1, 1)]
+
+DEMO: fine-tuning the full network using backpropagation...
+
+DEMO: cv_partition: 8, iteration: 1, error: 0.00075
+DEMO: cv_partition: 8, iteration: 2, error: 0.00075
+DEMO: cv_partition: 8, iteration: 3, error: 0.00075
+DEMO: cv_partition: 8, iteration: 4, error: 0.00075
+DEMO: cv_partition: 8, iteration: 5, error: 0.00075
+DEMO: cv_partition: 8, iteration: 6, error: 0.00075
+DEMO: cv_partition: 8, iteration: 7, error: 0.00075
+DEMO: cv_partition: 8, iteration: 8, error: 0.00075
+DEMO: cv_partition: 8, iteration: 9, error: 0.00075
+DEMO: cv_partition: 8, iteration: 10, error: 0.00075
+DEMO: cv_partition: 8, iteration: 11, error: 0.00075
+DEMO: cv_partition: 8, iteration: 12, error: 0.00075
+DEMO: cv_partition: 8, iteration: 13, error: 0.00075
+DEMO: cv_partition: 8, iteration: 14, error: 0.00075
+DEMO: cv_partition: 8, iteration: 15, error: 0.00075
+DEMO: cv_partition: 8, iteration: 16, error: 0.00075
+DEMO: cv_partition: 8, iteration: 17, error: 0.00075
+DEMO: cv_partition: 8, iteration: 18, error: 0.00075
+DEMO: cv_partition: 8, iteration: 19, error: 0.00076
+DEMO: cv_partition: 8, iteration: 20, error: 0.00076
+
+DEMO: cv_partition: 8, FINAL FULL NETWORK error: 0.00076
+
+INFO: starting cv partition: 9...
+
+DEMO: building SAE with unsupervised pre-training...
+
+
+DEMO: adding auto-encoder layer of size: 9 ...
+
+DEMO: cv_partition: 9, iteration: 1, MSE: 0.02885
+DEMO: cv_partition: 9, iteration: 2, MSE: 0.02356
+DEMO: cv_partition: 9, iteration: 3, MSE: 0.02143
+DEMO: cv_partition: 9, iteration: 4, MSE: 0.01947
+DEMO: cv_partition: 9, iteration: 5, MSE: 0.0184
+DEMO: cv_partition: 9, iteration: 6, MSE: 0.01746
+DEMO: cv_partition: 9, iteration: 7, MSE: 0.01673
+DEMO: cv_partition: 9, iteration: 8, MSE: 0.01633
+DEMO: cv_partition: 9, iteration: 9, MSE: 0.01815
+DEMO: cv_partition: 9, iteration: 10, MSE: 0.01508
+DEMO: cv_partition: 9, iteration: 11, MSE: 0.01502
+DEMO: cv_partition: 9, iteration: 12, MSE: 0.0144
+DEMO: cv_partition: 9, iteration: 13, MSE: 0.01458
+DEMO: cv_partition: 9, iteration: 14, MSE: 0.01386
+DEMO: cv_partition: 9, iteration: 15, MSE: 0.01368
+DEMO: cv_partition: 9, iteration: 16, MSE: 0.01393
+DEMO: cv_partition: 9, iteration: 17, MSE: 0.01326
+DEMO: cv_partition: 9, iteration: 18, MSE: 0.01368
+DEMO: cv_partition: 9, iteration: 19, MSE: 0.01294
+DEMO: cv_partition: 9, iteration: 20, MSE: 0.01317
+
+DEMO: DONE BUILDING SAE NETWORK
+
+DEMO: pre-trained SAE network shape: [12, 9, 12]
+DEMO: pre-trained SAE network weights shape: [(9, 12), (12, 9)]
+DEMO: pre-trained SAE network biases shape: [(9, 1), (12, 1)]
+
+DEMO: appending MLP network for prediction...
+DEMO: FULL network shape (with MLP appended): [12, 9, 12, 12, 6, 1]
+DEMO: FULL network weights/biases --> wshape: [(9, 12), (12, 9), (12, 12), (6, 12), (1, 6)], bshape: [(9, 1), (12, 1), (12, 1), (6, 1), (1, 1)]
+
+DEMO: fine-tuning the full network using backpropagation...
+
+DEMO: cv_partition: 9, iteration: 1, error: 0.00107
+DEMO: cv_partition: 9, iteration: 2, error: 0.00107
+DEMO: cv_partition: 9, iteration: 3, error: 0.00107
+DEMO: cv_partition: 9, iteration: 4, error: 0.00107
+DEMO: cv_partition: 9, iteration: 5, error: 0.00106
+DEMO: cv_partition: 9, iteration: 6, error: 0.00106
+DEMO: cv_partition: 9, iteration: 7, error: 0.00106
+DEMO: cv_partition: 9, iteration: 8, error: 0.00106
+DEMO: cv_partition: 9, iteration: 9, error: 0.00105
+DEMO: cv_partition: 9, iteration: 10, error: 0.00105
+DEMO: cv_partition: 9, iteration: 11, error: 0.00105
+DEMO: cv_partition: 9, iteration: 12, error: 0.00105
+DEMO: cv_partition: 9, iteration: 13, error: 0.00105
+DEMO: cv_partition: 9, iteration: 14, error: 0.00104
+DEMO: cv_partition: 9, iteration: 15, error: 0.00104
+DEMO: cv_partition: 9, iteration: 16, error: 0.00104
+DEMO: cv_partition: 9, iteration: 17, error: 0.00104
+DEMO: cv_partition: 9, iteration: 18, error: 0.00104
+DEMO: cv_partition: 9, iteration: 19, error: 0.00103
+DEMO: cv_partition: 9, iteration: 20, error: 0.00103
+
+DEMO: cv_partition: 9, FINAL FULL NETWORK error: 0.00103
+
+INFO: starting cv partition: 10...
+
+DEMO: building SAE with unsupervised pre-training...
+
+
+DEMO: adding auto-encoder layer of size: 9 ...
+
+DEMO: cv_partition: 10, iteration: 1, MSE: 0.0362
+DEMO: cv_partition: 10, iteration: 2, MSE: 0.02893
+DEMO: cv_partition: 10, iteration: 3, MSE: 0.02928
+DEMO: cv_partition: 10, iteration: 4, MSE: 0.02406
+DEMO: cv_partition: 10, iteration: 5, MSE: 0.02343
+DEMO: cv_partition: 10, iteration: 6, MSE: 0.02112
+DEMO: cv_partition: 10, iteration: 7, MSE: 0.02345
+DEMO: cv_partition: 10, iteration: 8, MSE: 0.02063
+DEMO: cv_partition: 10, iteration: 9, MSE: 0.01949
+DEMO: cv_partition: 10, iteration: 10, MSE: 0.01874
+DEMO: cv_partition: 10, iteration: 11, MSE: 0.01762
+DEMO: cv_partition: 10, iteration: 12, MSE: 0.0185
+DEMO: cv_partition: 10, iteration: 13, MSE: 0.01626
+DEMO: cv_partition: 10, iteration: 14, MSE: 0.01669
+DEMO: cv_partition: 10, iteration: 15, MSE: 0.01632
+DEMO: cv_partition: 10, iteration: 16, MSE: 0.01559
+DEMO: cv_partition: 10, iteration: 17, MSE: 0.0149
+DEMO: cv_partition: 10, iteration: 18, MSE: 0.01544
+DEMO: cv_partition: 10, iteration: 19, MSE: 0.0143
+DEMO: cv_partition: 10, iteration: 20, MSE: 0.01444
+
+DEMO: DONE BUILDING SAE NETWORK
+
+DEMO: pre-trained SAE network shape: [12, 9, 12]
+DEMO: pre-trained SAE network weights shape: [(9, 12), (12, 9)]
+DEMO: pre-trained SAE network biases shape: [(9, 1), (12, 1)]
+
+DEMO: appending MLP network for prediction...
+DEMO: FULL network shape (with MLP appended): [12, 9, 12, 12, 6, 1]
+DEMO: FULL network weights/biases --> wshape: [(9, 12), (12, 9), (12, 12), (6, 12), (1, 6)], bshape: [(9, 1), (12, 1), (12, 1), (6, 1), (1, 1)]
+
+DEMO: fine-tuning the full network using backpropagation...
+
+DEMO: cv_partition: 10, iteration: 1, error: 0.00092
+DEMO: cv_partition: 10, iteration: 2, error: 0.00088
+DEMO: cv_partition: 10, iteration: 3, error: 0.00086
+DEMO: cv_partition: 10, iteration: 4, error: 0.00084
+DEMO: cv_partition: 10, iteration: 5, error: 0.00083
+DEMO: cv_partition: 10, iteration: 6, error: 0.00083
+DEMO: cv_partition: 10, iteration: 7, error: 0.00082
+DEMO: cv_partition: 10, iteration: 8, error: 0.00082
+DEMO: cv_partition: 10, iteration: 9, error: 0.00082
+DEMO: cv_partition: 10, iteration: 10, error: 0.00082
+DEMO: cv_partition: 10, iteration: 11, error: 0.00081
+DEMO: cv_partition: 10, iteration: 12, error: 0.00081
+DEMO: cv_partition: 10, iteration: 13, error: 0.00081
+DEMO: cv_partition: 10, iteration: 14, error: 0.00081
+DEMO: cv_partition: 10, iteration: 15, error: 0.00081
+DEMO: cv_partition: 10, iteration: 16, error: 0.00081
+DEMO: cv_partition: 10, iteration: 17, error: 0.00081
+DEMO: cv_partition: 10, iteration: 18, error: 0.00081
+DEMO: cv_partition: 10, iteration: 19, error: 0.00081
+DEMO: cv_partition: 10, iteration: 20, error: 0.00081
+
+DEMO: cv_partition: 10, FINAL FULL NETWORK error: 0.00081
+INFO: ------------------------------------------------------------ TRAINING/TESTING DONE ------------------------------------------------------------
+
+INFO: trained network: weights --> 
+
+[array([[ 0.63327352,  2.02755553, -1.12752533,  2.28091069,  0.68374605,
+        -0.08031198, -0.73664029,  1.00876361, -2.32208201,  0.30072973,
+        -0.50651148,  0.95490797],
+       [-0.20581067,  0.68705357,  0.20335577, -0.35418112,  0.18704208,
+        -0.81396589,  0.11327451, -1.39423103, -1.78776221,  0.55036316,
+        -1.61307767, -1.6140507 ],
+       [-1.59576364,  0.74150684, -0.28204941,  1.03065988, -1.3504433 ,
+         0.82705385, -1.81632429,  0.23325893,  0.19700536, -0.67247997,
+        -0.69445707, -0.41418122],
+       [-0.45122983, -1.19926225, -0.16054859,  0.95351788, -0.27669798,
+         0.35352806,  2.21722662,  0.77417868, -0.49842678,  0.17882604,
+         2.03704676, -0.70947933],
+       [ 2.59969983, -0.34808442,  0.84215741, -0.51606223, -0.7130456 ,
+        -0.47481401,  1.861273  , -0.58646018, -0.80392799,  0.21983649,
+        -0.6021741 , -0.72042511],
+       [ 0.25591626, -0.33410715,  1.50283711,  0.4787712 ,  1.11263019,
+         0.00725232, -0.50278242,  0.12045357,  0.62685723,  1.38422764,
+         1.13268049,  1.26335963],
+       [-0.11837126,  1.2403058 ,  0.83227894, -0.3012198 , -0.65929568,
+        -0.54377588, -1.36420395, -0.03072837,  0.19634847,  0.48825083,
+         0.67708284, -0.15336991],
+       [ 0.58260882,  0.61369681, -1.38841825, -0.33891036, -0.48430884,
+         2.30211826,  2.14682644,  0.03606761,  0.06728257,  1.20156255,
+         0.40052819, -1.11363228],
+       [ 0.53897771,  0.47526513, -0.2903608 ,  0.76410241,  1.67336225,
+         1.54246222,  0.69490484, -1.06100054, -0.84024414,  0.83342339,
+         1.33220195,  1.24121183],
+       [ 1.26286292, -1.03615725,  1.26195163, -0.971759  ,  0.11675606,
+         0.35591942,  0.19183587,  0.12986463, -0.86633214,  0.82703109,
+        -0.88366206, -0.47770775],
+       [-0.46638865, -0.37359232,  0.55633493, -1.26094842, -0.23465969,
+         0.05082603, -0.22021815, -0.5346992 ,  0.15460332,  1.76445259,
+         0.39308357,  0.3497911 ],
+       [-0.66957767, -0.21062086, -0.93718868, -0.18588157,  0.58768382,
+         0.34608801,  0.3341535 ,  1.05847052, -0.8475599 , -0.3129828 ,
+         0.50177235, -0.1427296 ]])], shapes: [(12, 12)]
+
+
+INFO: trained network: biases --> 
+
+[array([[-1.08650842],
+       [ 0.77212126],
+       [ 0.05205981],
+       [ 0.9680285 ],
+       [ 0.93570003],
+       [-0.26296253],
+       [ 0.91165425],
+       [-1.58539315],
+       [-1.43302395],
+       [-0.58452024],
+       [ 1.16619582],
+       [ 0.45804263]])], shapes: [(12, 1)]
+
+
+INFO: data_set_name: forestfires
+
+
+INFO: trained network: AVERAGE ERROR --> 0.0034639999999999996
+
+
+real	44m33.864s
+user	44m30.113s
+sys	0m2.727s

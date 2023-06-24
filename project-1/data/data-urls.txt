@@ -1,0 +1,6 @@
+https://archive.ics.uci.edu/ml/datasets/breast+cancer+wisconsin+%28original%29
+https://archive.ics.uci.edu/ml/datasets/Glass+Identification
+https://archive.ics.uci.edu/ml/datasets/Iris
+https://archive.ics.uci.edu/ml/datasets/soybean+(small)
+https://archive.ics.uci.edu/ml/datasets/Congressional+Voting+Records
+

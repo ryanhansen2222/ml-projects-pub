@@ -1,0 +1,19 @@
+Brandon Sladek:
+    - all programming
+        - SAENetwork and NetworkLoader/Tester implementations
+        - ExperimentRunner implementation
+        - necessary modifications to NeuralNetwork base class and ExperimentRunner from P3
+    - report writing
+    - made demo video
+
+Jared Thompson:
+    - report writing
+    - (worked on P4)
+    
+Kyle Hagerman: 
+    - report writing
+    - (worked on P4)
+    
+Ryan Hansen:
+    - report writing
+    - (worked on P4)

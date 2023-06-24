@@ -1,0 +1,30 @@
+
+NOTES on Genetic Algorithms
+
+
+OVERVIEW
+
+
+	- we can use genetic algorithm to learn the best combinations of hyperparameters for a neural net
+	- can use to learn neural net weights as well
+
+	- genome in this context is a particular set of hyperparameters for a neural net
+
+	- GA evolves multiple solutions over the course of multiple generations
+	- single solution in GA will contain all weights/biases for single network
+	- all weights/biases in network will be represented with a single 1-dimensional vector (the chromosome)
+
+	- each solution in population will have two representations:
+		- list of weight matrices and bias vectors, used in neural network
+		- single 1D vector containing all weights/biases, used in genetic algorithm
+		- need to be able to easily convert between the two forms (with a dedicated method)
+
+	- common fitness function is accuracy
+
+
+LINKS
+
+
+	- great link on using GA to learn weights of neural net --> https://towardsdatascience.com/artificial-neural-networks-optimization-using-genetic-algorithm-with-python-1fe8ed17733e
+
+

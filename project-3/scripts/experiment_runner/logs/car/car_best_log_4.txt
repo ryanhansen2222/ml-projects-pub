@@ -1,0 +1,338 @@
+running Experiment from ExperimentRunner...
+
+DEMO: CLASSIFICATION: True, REGRESSION: False
+
+DEMO: hyperparams: 
+	max_iterations: 10
+	batch_size: 10
+	eta: 3
+	layer_activation_funcs: ['sigmoid', 'sigmoid', 'sigmoid']
+	layer_sizes_display: [6, 4, 2, 4]
+	use_momentum: True
+	momentum_beta: 0.9
+	k: 10
+
+DEMO: data_set_name: 	car
+
+DEMO: raw data: 
+
+     buying  maint  doors persons lug_boot safety  CLASS
+0     vhigh  vhigh      2       2    small    low  unacc
+1     vhigh  vhigh      2       2    small    med  unacc
+2     vhigh  vhigh      2       2    small   high  unacc
+3     vhigh  vhigh      2       2      med    low  unacc
+4     vhigh  vhigh      2       2      med    med  unacc
+5     vhigh  vhigh      2       2      med   high  unacc
+6     vhigh  vhigh      2       2      big    low  unacc
+7     vhigh  vhigh      2       2      big    med  unacc
+8     vhigh  vhigh      2       2      big   high  unacc
+9     vhigh  vhigh      2       4    small    low  unacc
+10    vhigh  vhigh      2       4    small    med  unacc
+11    vhigh  vhigh      2       4    small   high  unacc
+12    vhigh  vhigh      2       4      med    low  unacc
+13    vhigh  vhigh      2       4      med    med  unacc
+14    vhigh  vhigh      2       4      med   high  unacc
+15    vhigh  vhigh      2       4      big    low  unacc
+16    vhigh  vhigh      2       4      big    med  unacc
+17    vhigh  vhigh      2       4      big   high  unacc
+18    vhigh  vhigh      2    more    small    low  unacc
+19    vhigh  vhigh      2    more    small    med  unacc
+20    vhigh  vhigh      2    more    small   high  unacc
+21    vhigh  vhigh      2    more      med    low  unacc
+22    vhigh  vhigh      2    more      med    med  unacc
+23    vhigh  vhigh      2    more      med   high  unacc
+24    vhigh  vhigh      2    more      big    low  unacc
+25    vhigh  vhigh      2    more      big    med  unacc
+26    vhigh  vhigh      2    more      big   high  unacc
+27    vhigh  vhigh      3       2    small    low  unacc
+28    vhigh  vhigh      3       2    small    med  unacc
+29    vhigh  vhigh      3       2    small   high  unacc
+...     ...    ...    ...     ...      ...    ...    ...
+1698    low    low      4    more      big    low  unacc
+1699    low    low      4    more      big    med   good
+1700    low    low      4    more      big   high  vgood
+1701    low    low  5more       2    small    low  unacc
+1702    low    low  5more       2    small    med  unacc
+1703    low    low  5more       2    small   high  unacc
+1704    low    low  5more       2      med    low  unacc
+1705    low    low  5more       2      med    med  unacc
+1706    low    low  5more       2      med   high  unacc
+1707    low    low  5more       2      big    low  unacc
+1708    low    low  5more       2      big    med  unacc
+1709    low    low  5more       2      big   high  unacc
+1710    low    low  5more       4    small    low  unacc
+1711    low    low  5more       4    small    med    acc
+1712    low    low  5more       4    small   high   good
+1713    low    low  5more       4      med    low  unacc
+1714    low    low  5more       4      med    med   good
+1715    low    low  5more       4      med   high  vgood
+1716    low    low  5more       4      big    low  unacc
+1717    low    low  5more       4      big    med   good
+1718    low    low  5more       4      big   high  vgood
+1719    low    low  5more    more    small    low  unacc
+1720    low    low  5more    more    small    med    acc
+1721    low    low  5more    more    small   high   good
+1722    low    low  5more    more      med    low  unacc
+1723    low    low  5more    more      med    med   good
+1724    low    low  5more    more      med   high  vgood
+1725    low    low  5more    more      big    low  unacc
+1726    low    low  5more    more      big    med   good
+1727    low    low  5more    more      big   high  vgood
+
+[1728 rows x 7 columns], shape: (1728, 7)
+
+DEMO: ---------------------------------------------------------------------------------------------------
+
+DEMO: preprocessed data: 
+
+      buying  maint     doors  persons  lug_boot  safety  CLASS
+0        0.0    0.0  0.000000      0.0       0.0     0.0  unacc
+1        0.0    0.0  0.000000      0.0       0.0     0.5  unacc
+2        0.0    0.0  0.000000      0.0       0.0     1.0  unacc
+3        0.0    0.0  0.000000      0.0       0.5     0.0  unacc
+4        0.0    0.0  0.000000      0.0       0.5     0.5  unacc
+5        0.0    0.0  0.000000      0.0       0.5     1.0  unacc
+6        0.0    0.0  0.000000      0.0       1.0     0.0  unacc
+7        0.0    0.0  0.000000      0.0       1.0     0.5  unacc
+8        0.0    0.0  0.000000      0.0       1.0     1.0  unacc
+9        0.0    0.0  0.000000      0.5       0.0     0.0  unacc
+10       0.0    0.0  0.000000      0.5       0.0     0.5  unacc
+11       0.0    0.0  0.000000      0.5       0.0     1.0  unacc
+12       0.0    0.0  0.000000      0.5       0.5     0.0  unacc
+13       0.0    0.0  0.000000      0.5       0.5     0.5  unacc
+14       0.0    0.0  0.000000      0.5       0.5     1.0  unacc
+15       0.0    0.0  0.000000      0.5       1.0     0.0  unacc
+16       0.0    0.0  0.000000      0.5       1.0     0.5  unacc
+17       0.0    0.0  0.000000      0.5       1.0     1.0  unacc
+18       0.0    0.0  0.000000      1.0       0.0     0.0  unacc
+19       0.0    0.0  0.000000      1.0       0.0     0.5  unacc
+20       0.0    0.0  0.000000      1.0       0.0     1.0  unacc
+21       0.0    0.0  0.000000      1.0       0.5     0.0  unacc
+22       0.0    0.0  0.000000      1.0       0.5     0.5  unacc
+23       0.0    0.0  0.000000      1.0       0.5     1.0  unacc
+24       0.0    0.0  0.000000      1.0       1.0     0.0  unacc
+25       0.0    0.0  0.000000      1.0       1.0     0.5  unacc
+26       0.0    0.0  0.000000      1.0       1.0     1.0  unacc
+27       0.0    0.0  0.333333      0.0       0.0     0.0  unacc
+28       0.0    0.0  0.333333      0.0       0.0     0.5  unacc
+29       0.0    0.0  0.333333      0.0       0.0     1.0  unacc
+...      ...    ...       ...      ...       ...     ...    ...
+1698     1.0    1.0  0.666667      1.0       1.0     0.0  unacc
+1699     1.0    1.0  0.666667      1.0       1.0     0.5   good
+1700     1.0    1.0  0.666667      1.0       1.0     1.0  vgood
+1701     1.0    1.0  1.000000      0.0       0.0     0.0  unacc
+1702     1.0    1.0  1.000000      0.0       0.0     0.5  unacc
+1703     1.0    1.0  1.000000      0.0       0.0     1.0  unacc
+1704     1.0    1.0  1.000000      0.0       0.5     0.0  unacc
+1705     1.0    1.0  1.000000      0.0       0.5     0.5  unacc
+1706     1.0    1.0  1.000000      0.0       0.5     1.0  unacc
+1707     1.0    1.0  1.000000      0.0       1.0     0.0  unacc
+1708     1.0    1.0  1.000000      0.0       1.0     0.5  unacc
+1709     1.0    1.0  1.000000      0.0       1.0     1.0  unacc
+1710     1.0    1.0  1.000000      0.5       0.0     0.0  unacc
+1711     1.0    1.0  1.000000      0.5       0.0     0.5    acc
+1712     1.0    1.0  1.000000      0.5       0.0     1.0   good
+1713     1.0    1.0  1.000000      0.5       0.5     0.0  unacc
+1714     1.0    1.0  1.000000      0.5       0.5     0.5   good
+1715     1.0    1.0  1.000000      0.5       0.5     1.0  vgood
+1716     1.0    1.0  1.000000      0.5       1.0     0.0  unacc
+1717     1.0    1.0  1.000000      0.5       1.0     0.5   good
+1718     1.0    1.0  1.000000      0.5       1.0     1.0  vgood
+1719     1.0    1.0  1.000000      1.0       0.0     0.0  unacc
+1720     1.0    1.0  1.000000      1.0       0.0     0.5    acc
+1721     1.0    1.0  1.000000      1.0       0.0     1.0   good
+1722     1.0    1.0  1.000000      1.0       0.5     0.0  unacc
+1723     1.0    1.0  1.000000      1.0       0.5     0.5   good
+1724     1.0    1.0  1.000000      1.0       0.5     1.0  vgood
+1725     1.0    1.0  1.000000      1.0       1.0     0.0  unacc
+1726     1.0    1.0  1.000000      1.0       1.0     0.5   good
+1727     1.0    1.0  1.000000      1.0       1.0     1.0  vgood
+
+[1728 rows x 7 columns], shape: (1728, 7)
+
+DEMO: ---------------------------------------------------------------------------------------------------
+
+DEMO: data_set_name: car
+
+DEMO: cv_partition: 1, iteration: 1, accuracy: 0.77326
+DEMO: cv_partition: 1, iteration: 2, accuracy: 0.77326
+DEMO: cv_partition: 1, iteration: 3, accuracy: 0.81977
+DEMO: cv_partition: 1, iteration: 4, accuracy: 0.83721
+DEMO: cv_partition: 1, iteration: 5, accuracy: 0.84884
+DEMO: cv_partition: 1, iteration: 6, accuracy: 0.85465
+DEMO: cv_partition: 1, iteration: 7, accuracy: 0.86628
+DEMO: cv_partition: 1, iteration: 8, accuracy: 0.86628
+DEMO: cv_partition: 1, iteration: 9, accuracy: 0.86047
+DEMO: cv_partition: 1, iteration: 10, accuracy: 0.88953
+
+DEMO: accuracy improvement: 0.1162700000000001
+
+
+DEMO: cv_partition: 2, iteration: 1, accuracy: 0.71512
+DEMO: cv_partition: 2, iteration: 2, accuracy: 0.75
+DEMO: cv_partition: 2, iteration: 3, accuracy: 0.77326
+DEMO: cv_partition: 2, iteration: 4, accuracy: 0.7907
+DEMO: cv_partition: 2, iteration: 5, accuracy: 0.79651
+DEMO: cv_partition: 2, iteration: 6, accuracy: 0.81395
+DEMO: cv_partition: 2, iteration: 7, accuracy: 0.86047
+DEMO: cv_partition: 2, iteration: 8, accuracy: 0.87209
+DEMO: cv_partition: 2, iteration: 9, accuracy: 0.85465
+DEMO: cv_partition: 2, iteration: 10, accuracy: 0.85465
+
+DEMO: accuracy improvement: 0.13953000000000004
+
+
+DEMO: cv_partition: 3, iteration: 1, accuracy: 0.70349
+DEMO: cv_partition: 3, iteration: 2, accuracy: 0.70349
+DEMO: cv_partition: 3, iteration: 3, accuracy: 0.70349
+DEMO: cv_partition: 3, iteration: 4, accuracy: 0.73837
+DEMO: cv_partition: 3, iteration: 5, accuracy: 0.79651
+DEMO: cv_partition: 3, iteration: 6, accuracy: 0.81977
+DEMO: cv_partition: 3, iteration: 7, accuracy: 0.84302
+DEMO: cv_partition: 3, iteration: 8, accuracy: 0.86628
+DEMO: cv_partition: 3, iteration: 9, accuracy: 0.88372
+DEMO: cv_partition: 3, iteration: 10, accuracy: 0.87791
+
+DEMO: accuracy improvement: 0.17442000000000002
+
+
+DEMO: cv_partition: 4, iteration: 1, accuracy: 0.6686
+DEMO: cv_partition: 4, iteration: 2, accuracy: 0.6686
+DEMO: cv_partition: 4, iteration: 3, accuracy: 0.6686
+DEMO: cv_partition: 4, iteration: 4, accuracy: 0.68605
+DEMO: cv_partition: 4, iteration: 5, accuracy: 0.72093
+DEMO: cv_partition: 4, iteration: 6, accuracy: 0.75581
+DEMO: cv_partition: 4, iteration: 7, accuracy: 0.69186
+DEMO: cv_partition: 4, iteration: 8, accuracy: 0.76163
+DEMO: cv_partition: 4, iteration: 9, accuracy: 0.80814
+DEMO: cv_partition: 4, iteration: 10, accuracy: 0.80814
+
+DEMO: accuracy improvement: 0.13954
+
+
+DEMO: cv_partition: 5, iteration: 1, accuracy: 0.67442
+DEMO: cv_partition: 5, iteration: 2, accuracy: 0.67442
+DEMO: cv_partition: 5, iteration: 3, accuracy: 0.67442
+DEMO: cv_partition: 5, iteration: 4, accuracy: 0.75581
+DEMO: cv_partition: 5, iteration: 5, accuracy: 0.72093
+DEMO: cv_partition: 5, iteration: 6, accuracy: 0.74419
+DEMO: cv_partition: 5, iteration: 7, accuracy: 0.81395
+DEMO: cv_partition: 5, iteration: 8, accuracy: 0.80814
+DEMO: cv_partition: 5, iteration: 9, accuracy: 0.8314
+DEMO: cv_partition: 5, iteration: 10, accuracy: 0.83721
+
+DEMO: accuracy improvement: 0.16279
+
+
+DEMO: cv_partition: 6, iteration: 1, accuracy: 0.69186
+DEMO: cv_partition: 6, iteration: 2, accuracy: 0.69186
+DEMO: cv_partition: 6, iteration: 3, accuracy: 0.72674
+DEMO: cv_partition: 6, iteration: 4, accuracy: 0.73837
+DEMO: cv_partition: 6, iteration: 5, accuracy: 0.81395
+DEMO: cv_partition: 6, iteration: 6, accuracy: 0.8314
+DEMO: cv_partition: 6, iteration: 7, accuracy: 0.81977
+DEMO: cv_partition: 6, iteration: 8, accuracy: 0.84884
+DEMO: cv_partition: 6, iteration: 9, accuracy: 0.84302
+DEMO: cv_partition: 6, iteration: 10, accuracy: 0.85465
+
+DEMO: accuracy improvement: 0.16279
+
+
+DEMO: cv_partition: 7, iteration: 1, accuracy: 0.65116
+DEMO: cv_partition: 7, iteration: 2, accuracy: 0.65116
+DEMO: cv_partition: 7, iteration: 3, accuracy: 0.75
+DEMO: cv_partition: 7, iteration: 4, accuracy: 0.76744
+DEMO: cv_partition: 7, iteration: 5, accuracy: 0.77907
+DEMO: cv_partition: 7, iteration: 6, accuracy: 0.86628
+DEMO: cv_partition: 7, iteration: 7, accuracy: 0.86047
+DEMO: cv_partition: 7, iteration: 8, accuracy: 0.85465
+DEMO: cv_partition: 7, iteration: 9, accuracy: 0.85465
+DEMO: cv_partition: 7, iteration: 10, accuracy: 0.81395
+
+DEMO: accuracy improvement: 0.16279
+
+
+DEMO: cv_partition: 8, iteration: 1, accuracy: 0.67442
+DEMO: cv_partition: 8, iteration: 2, accuracy: 0.73256
+DEMO: cv_partition: 8, iteration: 3, accuracy: 0.80233
+DEMO: cv_partition: 8, iteration: 4, accuracy: 0.80814
+DEMO: cv_partition: 8, iteration: 5, accuracy: 0.83721
+DEMO: cv_partition: 8, iteration: 6, accuracy: 0.81395
+DEMO: cv_partition: 8, iteration: 7, accuracy: 0.84884
+DEMO: cv_partition: 8, iteration: 8, accuracy: 0.83721
+DEMO: cv_partition: 8, iteration: 9, accuracy: 0.88372
+DEMO: cv_partition: 8, iteration: 10, accuracy: 0.86628
+
+DEMO: accuracy improvement: 0.19186000000000003
+
+
+DEMO: cv_partition: 9, iteration: 1, accuracy: 0.70349
+DEMO: cv_partition: 9, iteration: 2, accuracy: 0.70349
+DEMO: cv_partition: 9, iteration: 3, accuracy: 0.78488
+DEMO: cv_partition: 9, iteration: 4, accuracy: 0.80814
+DEMO: cv_partition: 9, iteration: 5, accuracy: 0.81977
+DEMO: cv_partition: 9, iteration: 6, accuracy: 0.84302
+DEMO: cv_partition: 9, iteration: 7, accuracy: 0.80814
+DEMO: cv_partition: 9, iteration: 8, accuracy: 0.8314
+DEMO: cv_partition: 9, iteration: 9, accuracy: 0.82558
+DEMO: cv_partition: 9, iteration: 10, accuracy: 0.81977
+
+DEMO: accuracy improvement: 0.11628000000000005
+
+
+DEMO: cv_partition: 10, iteration: 1, accuracy: 0.75
+DEMO: cv_partition: 10, iteration: 2, accuracy: 0.75
+DEMO: cv_partition: 10, iteration: 3, accuracy: 0.76744
+DEMO: cv_partition: 10, iteration: 4, accuracy: 0.84302
+DEMO: cv_partition: 10, iteration: 5, accuracy: 0.84302
+DEMO: cv_partition: 10, iteration: 6, accuracy: 0.87209
+DEMO: cv_partition: 10, iteration: 7, accuracy: 0.87209
+DEMO: cv_partition: 10, iteration: 8, accuracy: 0.91279
+DEMO: cv_partition: 10, iteration: 9, accuracy: 0.88953
+DEMO: cv_partition: 10, iteration: 10, accuracy: 0.87209
+
+DEMO: accuracy improvement: 0.12209000000000003
+
+
+DEMO: ------------------------------------------------------------ TRAINING DONE ------------------------------------------------------------
+
+DEMO: trained network: weights --> 
+
+[array([[ 3.5839561 ,  4.00961564,  0.28931144, -0.81721109,  0.56285979,
+        -0.57791909],
+       [-0.61778347, -0.53537538, -0.46256701,  1.61671021,  0.1732297 ,
+         1.82369222],
+       [ 0.11489342, -0.02000759,  0.35685586, -6.74587218,  0.67826157,
+        -0.1252981 ],
+       [ 1.32861757,  0.94821693,  0.72896743, -1.41706464,  1.96741196,
+         7.06946115]]), array([[ 4.04127262, -1.75962712, -5.04495943,  3.27937231],
+       [ 0.07457862, -2.05837286,  4.63551276, -4.75008971]]), array([[-6.22338624,  5.07299927],
+       [ 2.42462325, -4.33749786],
+       [ 2.35143654, -1.42770591],
+       [-1.94362192, -0.99021257]])], shapes: [(4, 6), (2, 4), (4, 2)]
+
+
+DEMO: trained network: biases --> 
+
+[array([[-1.1076753 ],
+       [-1.88349698],
+       [ 1.27976621],
+       [-4.58425886]]), array([[-4.11695313],
+       [ 2.33090439]]), array([[ 2.79772168],
+       [-1.02110502],
+       [-3.76496845],
+       [-3.44827001]])], shapes: [(4, 1), (2, 1), (4, 1)]
+
+
+DEMO: data_set_name: car
+
+
+DEMO: trained network: AVERAGE ACCURACY --> 0.849418
+
+
+DEMO: average improvement: 0.14883600000000005
+
+
+real	21m41.170s
+user	21m30.075s
+sys	0m2.730s

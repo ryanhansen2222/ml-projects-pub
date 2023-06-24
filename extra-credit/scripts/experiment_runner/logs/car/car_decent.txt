@@ -1,0 +1,134 @@
+running EC Experiment from ExperimentRunner...
+
+INFO: hyperparams: 
+	max_iterations: 10
+	batch_size: 20
+	eta: 5
+	layer_activation_funcs: ['sigmoid']
+	layer_sizes_display: [6, 6]
+	use_momentum: False
+	momentum_beta: 0.9
+
+INFO: data_set_name: 	car
+
+INFO: raw data: 
+
+     buying  maint  doors persons lug_boot safety  CLASS
+0     vhigh  vhigh      2       2    small    low  unacc
+1     vhigh  vhigh      2       2    small    med  unacc
+2     vhigh  vhigh      2       2    small   high  unacc
+3     vhigh  vhigh      2       2      med    low  unacc
+4     vhigh  vhigh      2       2      med    med  unacc
+...     ...    ...    ...     ...      ...    ...    ...
+1723    low    low  5more    more      med    med   good
+1724    low    low  5more    more      med   high  vgood
+1725    low    low  5more    more      big    low  unacc
+1726    low    low  5more    more      big    med   good
+1727    low    low  5more    more      big   high  vgood
+
+[1728 rows x 7 columns], shape: (1728, 7)
+
+INFO: ---------------------------------------------------------------------------------------------------
+
+INFO: preprocessed data: 
+
+      buying  maint  doors  persons  lug_boot  safety  CLASS
+0        0.0    0.0    0.0      0.0       0.0     0.0  unacc
+1        0.0    0.0    0.0      0.0       0.0     0.5  unacc
+2        0.0    0.0    0.0      0.0       0.0     1.0  unacc
+3        0.0    0.0    0.0      0.0       0.5     0.0  unacc
+4        0.0    0.0    0.0      0.0       0.5     0.5  unacc
+...      ...    ...    ...      ...       ...     ...    ...
+1723     1.0    1.0    1.0      1.0       0.5     0.5   good
+1724     1.0    1.0    1.0      1.0       0.5     1.0  vgood
+1725     1.0    1.0    1.0      1.0       1.0     0.0  unacc
+1726     1.0    1.0    1.0      1.0       1.0     0.5   good
+1727     1.0    1.0    1.0      1.0       1.0     1.0  vgood
+
+[1728 rows x 7 columns], shape: (1728, 7)
+
+INFO: ---------------------------------------------------------------------------------------------------
+
+INFO: data_set_name: car
+
+
+INFO: starting cv partition: 1...
+
+DEMO: building SAE with unsupervised pre-training...
+
+
+DEMO: adding auto-encoder layer of size: 4 ...
+
+DEMO: cv_partition: 1, iteration: 1, MSE: 0.10085
+DEMO: cv_partition: 1, iteration: 2, MSE: 0.08076
+DEMO: cv_partition: 1, iteration: 3, MSE: 0.07263
+DEMO: cv_partition: 1, iteration: 4, MSE: 0.06679
+DEMO: cv_partition: 1, iteration: 5, MSE: 0.06282
+DEMO: cv_partition: 1, iteration: 6, MSE: 0.06081
+DEMO: cv_partition: 1, iteration: 7, MSE: 0.06302
+DEMO: cv_partition: 1, iteration: 8, MSE: 0.05657
+DEMO: cv_partition: 1, iteration: 9, MSE: 0.05577
+DEMO: cv_partition: 1, iteration: 10, MSE: 0.0551
+
+DEMO: DONE BUILDING SAE NETWORK
+
+DEMO: pre-trained SAE network shape: [6, 4, 6]
+DEMO: pre-trained SAE network weights shape: [(4, 6), (6, 4)]
+DEMO: pre-trained SAE network biases shape: [(4, 1), (6, 1)]
+
+DEMO: appending MLP network for prediction...
+DEMO: FULL network shape (with MLP appended): [6, 4, 6, 6, 4]
+DEMO: FULL network weights/biases --> wshape: [(4, 6), (6, 4), (6, 6), (4, 6)], bshape: [(4, 1), (6, 1), (6, 1), (4, 1)]
+
+DEMO: fine-tuning the full network using backpropagation...
+
+DEMO: cv_partition: 1, iteration: 1, accuracy: 0.73256
+DEMO: cv_partition: 1, iteration: 2, accuracy: 0.73256
+DEMO: cv_partition: 1, iteration: 3, accuracy: 0.75
+DEMO: cv_partition: 1, iteration: 4, accuracy: 0.74419
+DEMO: cv_partition: 1, iteration: 5, accuracy: 0.73256
+DEMO: cv_partition: 1, iteration: 6, accuracy: 0.73837
+DEMO: cv_partition: 1, iteration: 7, accuracy: 0.69186
+DEMO: cv_partition: 1, iteration: 8, accuracy: 0.73256
+DEMO: cv_partition: 1, iteration: 9, accuracy: 0.74419
+DEMO: cv_partition: 1, iteration: 10, accuracy: 0.73837
+
+DEMO: cv_partition: 1, FINAL FULL NETWORK accuracy: 0.73837
+INFO: ------------------------------------------------------------ TRAINING/TESTING DONE ------------------------------------------------------------
+
+INFO: trained network: weights --> 
+
+[array([[ 1.86335202, -1.93821901, -0.47690715, -1.08548629,  0.35300849,
+        -0.69464295],
+       [-0.04210199,  0.74172267, -0.96075804, -0.4774411 ,  1.17721869,
+         2.43243334],
+       [-1.74767008,  0.87677078, -0.42004494, -0.50012192, -1.09812868,
+        -0.13402719],
+       [-0.20382396,  0.58286305, -0.1064558 , -1.10514435,  0.25464408,
+        -1.13846872],
+       [ 0.37722634, -1.53286992, -0.47709746, -0.6269244 , -0.36485908,
+         2.82509157],
+       [-0.97975561, -0.30781789, -0.61831513, -0.67386562,  0.19763247,
+         0.84122308]])], shapes: [(6, 6)]
+
+
+INFO: trained network: biases --> 
+
+[array([[ 0.01863105],
+       [-1.28096133],
+       [ 1.06358132],
+       [-0.48182882],
+       [-0.82017075],
+       [-0.44851665]])], shapes: [(6, 1)]
+
+
+INFO: data_set_name: car
+
+
+INFO: trained network: AVERAGE ACCURACY --> 0.73837
+
+
+real	3m31.794s
+user	3m32.176s
+sys	0m0.336s
+

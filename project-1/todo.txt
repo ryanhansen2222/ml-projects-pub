@@ -1,0 +1,23 @@
+TO DO
+
+- preprocessing: implement methods in preprocess script
+- RYAN
+
+- loss functions: have to implement two
+	- 0/1 loss function: count number of correct predictions
+	- Mean Squared Error
+- KYLE
+
+- create experiment runner script for running naive bayes on various CV data sets
+	- should save results in pandas data frame for easy reference
+- BRANDON
+
+- develop hypothesis on what data scrambling impact will be
+	- write out hypothesis section of report
+
+- run experiments: get results, put into report as tables
+	- run naive bayes on all cross-validation combinations
+	- run naive bayes on all scrambled CV combinations
+
+- write report
+- ALL

@@ -1,0 +1,91 @@
+
+NOTES on Particle Swarm Optimization
+
+
+OVERVIEW
+
+
+number of particles placed in search space of cost function
+	- each evaluates objective function at current location
+	- each particle then determines next move based on some aspect of its own history and current location (and best fitness move from current location), along with info from one or more other particles, with random perturbations.
+	- all particles move once in each iteration
+	- over time, all particles should move toward optimum of cost function, like flock of birds foraging for food.
+
+	- each particle composed of 3 D-dimensional vectors, where D is dimension of the search space:
+		- xi --> current position
+		- pi --> previous best position
+		- vi --> velocity
+
+	- in each iteration:
+		- if xi is better than any xi found before, then set pi = xi
+		- cost function value of best result found so far can be stored in variable --> pbesti
+
+	- objective: keep finding better positions and updating pi and pbesti
+	- new points chosen by adding vi to xi
+	- pg --> current best global pbesti in neighborhood of i point
+	- algorithm operates by adjusting vi, which is essentially the step size
+
+	progress is only made when particles interact
+
+	problem solving is population-wide phenomenon, 
+		emerging from behavior of individual particles through interactions with others
+
+
+PARAMETERS
+
+
+	- size of population: number of particles
+		- set empirically based on dimensionality and perceived difficulty of problem
+		- values in range 20-50 are most common
+
+	- acceleration coefficients: phi_1, and phi_2
+		- determine magnitude of random forces in direction of pbesti and pg
+		- behavior of PSO changes drastically with changes to acceleration coefficients
+		- can be seen as attractive forces modeled by spring coefficients and Newton's Second Law
+			- essentially determine stiffness of spring pulling particle
+			- tuning changes "responsiveness" of swarm, and can make unstable if particle speeds increase without control
+
+	- (optional) bounds on velocity: [-vmax, +vmax]
+		- tuning requires care, influences balance between exploration and exploitation
+		- can lead to problems, is problem-specific, but no good rule of thumb exists
+		- can make it more difficult or impossible for swarm to converge
+		- typically limit vmax to xmax, the dynamic range of each variable on each dimension
+
+	- inertia weight: w
+		- essentially a friction coefficient that determines fluidity of medium through which particle moves
+		- value typically changes throughout iterations of PSO, usually higher to lower, like from 0.9 to 0.4
+		- can also just be randomly chosen from a uniform distribution, or increased even
+		- inertia and acceleration coeffs typically render the vmax param unecessary for damping swarm dynamics
+
+	- constriction coefficients
+		- canonical way to damp particle dynamics without using problem-specific arbitrary params
+		- algebraically equivalent to PSO with inertia
+
+
+INITIALIZATION and EXECUTION
+
+
+	- choose swarm size
+	- randomly choose initial location and velocity for each particle in swarm
+	- then just keep updating the particles until satisfactory convergence or max iterations is reached
+		- when done iterating, the solution is the best (or average of best) particle solution found
+
+
+OTHER
+
+
+fully informed particle swarm (FIPS)
+	- intead of Ki = 2 in case of each particle only holding pbesti in neighborhood,
+		- this uses all neighbors in neighborhood
+
+
+topologies
+
+static topologies
+	- gbest ("global best")
+	- lbest ("local best")
+
+dynamic topologies
+	- number of neighbors can be increased throughout execution of algorithm
+	- can go from using lbest (better at exploring) to using gbest (better at converging on local minima)
+

@@ -1,0 +1,179 @@
+running EC Experiment from ExperimentRunner...
+
+INFO: hyperparams: 
+	max_iterations: 20
+	batch_size: 4
+	eta: 2
+	layer_activation_funcs: ['sigmoid']
+	layer_sizes_display: [11, 11]
+	use_momentum: False
+	momentum_beta: 0.9
+
+INFO: data_set_name: 	wine
+
+INFO: raw data: 
+
+        fa    va    ca   rs      c   fsd    tsd        d    pH     s     a  CLASS
+0      7.4  0.70  0.00  1.9  0.076  11.0   34.0  0.99780  3.51  0.56   9.4      5
+1      7.8  0.88  0.00  2.6  0.098  25.0   67.0  0.99680  3.20  0.68   9.8      5
+2      7.8  0.76  0.04  2.3  0.092  15.0   54.0  0.99700  3.26  0.65   9.8      5
+3     11.2  0.28  0.56  1.9  0.075  17.0   60.0  0.99800  3.16  0.58   9.8      6
+4      7.4  0.70  0.00  1.9  0.076  11.0   34.0  0.99780  3.51  0.56   9.4      5
+...    ...   ...   ...  ...    ...   ...    ...      ...   ...   ...   ...    ...
+6492   6.2  0.21  0.29  1.6  0.039  24.0   92.0  0.99114  3.27  0.50  11.2      6
+6493   6.6  0.32  0.36  8.0  0.047  57.0  168.0  0.99490  3.15  0.46   9.6      5
+6494   6.5  0.24  0.19  1.2  0.041  30.0  111.0  0.99254  2.99  0.46   9.4      6
+6495   5.5  0.29  0.30  1.1  0.022  20.0  110.0  0.98869  3.34  0.38  12.8      7
+6496   6.0  0.21  0.38  0.8  0.020  22.0   98.0  0.98941  3.26  0.32  11.8      6
+
+[6497 rows x 12 columns], shape: (6497, 12)
+
+INFO: ---------------------------------------------------------------------------------------------------
+
+INFO: preprocessed data: 
+
+            fa        va        ca        rs         c       fsd       tsd         d        pH         s         a     CLASS
+0     0.297521  0.413333  0.000000  0.019939  0.111296  0.034722  0.064516  0.206092  0.612403  0.191011  0.202899  0.333333
+1     0.330579  0.533333  0.000000  0.030675  0.147841  0.083333  0.140553  0.186813  0.372093  0.258427  0.260870  0.333333
+2     0.330579  0.453333  0.024096  0.026074  0.137874  0.048611  0.110599  0.190669  0.418605  0.241573  0.260870  0.333333
+3     0.611570  0.133333  0.337349  0.019939  0.109635  0.055556  0.124424  0.209948  0.341085  0.202247  0.260870  0.500000
+4     0.297521  0.413333  0.000000  0.019939  0.111296  0.034722  0.064516  0.206092  0.612403  0.191011  0.202899  0.333333
+...        ...       ...       ...       ...       ...       ...       ...       ...       ...       ...       ...       ...
+6492  0.198347  0.086667  0.174699  0.015337  0.049834  0.079861  0.198157  0.077694  0.426357  0.157303  0.463768  0.500000
+6493  0.231405  0.160000  0.216867  0.113497  0.063123  0.194444  0.373272  0.150183  0.333333  0.134831  0.231884  0.333333
+6494  0.223140  0.106667  0.114458  0.009202  0.053156  0.100694  0.241935  0.104685  0.209302  0.134831  0.202899  0.500000
+6495  0.140496  0.140000  0.180723  0.007669  0.021595  0.065972  0.239631  0.030461  0.480620  0.089888  0.695652  0.666667
+6496  0.181818  0.086667  0.228916  0.003067  0.018272  0.072917  0.211982  0.044342  0.418605  0.056180  0.550725  0.500000
+
+[6497 rows x 12 columns], shape: (6497, 12)
+
+INFO: ---------------------------------------------------------------------------------------------------
+
+INFO: data_set_name: wine
+
+
+INFO: starting cv partition: 1...
+
+DEMO: building SAE with unsupervised pre-training...
+
+
+DEMO: adding auto-encoder layer of size: 8 ...
+
+DEMO: cv_partition: 1, iteration: 1, MSE: 0.0062
+DEMO: cv_partition: 1, iteration: 2, MSE: 0.00485
+DEMO: cv_partition: 1, iteration: 3, MSE: 0.00419
+DEMO: cv_partition: 1, iteration: 4, MSE: 0.00374
+DEMO: cv_partition: 1, iteration: 5, MSE: 0.00347
+DEMO: cv_partition: 1, iteration: 6, MSE: 0.00315
+DEMO: cv_partition: 1, iteration: 7, MSE: 0.00304
+DEMO: cv_partition: 1, iteration: 8, MSE: 0.00283
+DEMO: cv_partition: 1, iteration: 9, MSE: 0.00284
+DEMO: cv_partition: 1, iteration: 10, MSE: 0.00263
+DEMO: cv_partition: 1, iteration: 11, MSE: 0.00252
+DEMO: cv_partition: 1, iteration: 12, MSE: 0.00245
+DEMO: cv_partition: 1, iteration: 13, MSE: 0.00283
+DEMO: cv_partition: 1, iteration: 14, MSE: 0.00239
+DEMO: cv_partition: 1, iteration: 15, MSE: 0.0023
+DEMO: cv_partition: 1, iteration: 16, MSE: 0.0023
+DEMO: cv_partition: 1, iteration: 17, MSE: 0.00219
+DEMO: cv_partition: 1, iteration: 18, MSE: 0.00214
+DEMO: cv_partition: 1, iteration: 19, MSE: 0.00213
+DEMO: cv_partition: 1, iteration: 20, MSE: 0.00211
+
+DEMO: DONE BUILDING SAE NETWORK
+
+DEMO: pre-trained SAE network shape: [11, 8, 11]
+DEMO: pre-trained SAE network weights shape: [(8, 11), (11, 8)]
+DEMO: pre-trained SAE network biases shape: [(8, 1), (11, 1)]
+
+DEMO: appending MLP network for prediction...
+DEMO: FULL network shape (with MLP appended): [11, 8, 11, 11, 1]
+DEMO: FULL network weights/biases --> wshape: [(8, 11), (11, 8), (11, 11), (1, 11)], bshape: [(8, 1), (11, 1), (11, 1), (1, 1)]
+
+DEMO: fine-tuning the full network using backpropagation...
+
+DEMO: cv_partition: 1, iteration: 1, error: 0.23981
+DEMO: cv_partition: 1, iteration: 2, error: 0.23981
+DEMO: cv_partition: 1, iteration: 3, error: 0.23981
+DEMO: cv_partition: 1, iteration: 4, error: 0.23981
+DEMO: cv_partition: 1, iteration: 5, error: 0.23981
+DEMO: cv_partition: 1, iteration: 6, error: 0.23981
+DEMO: cv_partition: 1, iteration: 7, error: 0.23981
+DEMO: cv_partition: 1, iteration: 8, error: 0.23981
+DEMO: cv_partition: 1, iteration: 9, error: 0.23981
+DEMO: cv_partition: 1, iteration: 10, error: 0.23981
+DEMO: cv_partition: 1, iteration: 11, error: 0.23981
+DEMO: cv_partition: 1, iteration: 12, error: 0.23981
+DEMO: cv_partition: 1, iteration: 13, error: 0.23981
+DEMO: cv_partition: 1, iteration: 14, error: 0.23981
+DEMO: cv_partition: 1, iteration: 15, error: 0.23981
+DEMO: cv_partition: 1, iteration: 16, error: 0.23981
+DEMO: cv_partition: 1, iteration: 17, error: 0.23981
+DEMO: cv_partition: 1, iteration: 18, error: 0.23981
+DEMO: cv_partition: 1, iteration: 19, error: 0.23981
+DEMO: cv_partition: 1, iteration: 20, error: 0.23981
+
+DEMO: cv_partition: 1, FINAL FULL NETWORK error: 0.23981
+INFO: ------------------------------------------------------------ TRAINING/TESTING DONE ------------------------------------------------------------
+
+INFO: trained network: weights --> 
+
+[array([[ 0.66139584,  0.99590468, -0.33827539, -0.06178874,  1.40644777,
+         2.6655297 , -0.2594321 ,  1.04402763, -0.52377072,  0.5855825 ,
+         0.51515011],
+       [ 1.77467376,  0.73783084, -0.93304695,  0.57854054,  0.77541563,
+        -0.68105648, -0.59820739,  1.06431138, -1.02902812,  1.08188972,
+         2.7065722 ],
+       [ 0.33062658,  0.10831803, -1.50608757, -0.2269251 , -1.2954309 ,
+         0.16142706, -0.56803274, -0.06308964, -0.14428351, -0.33533924,
+         0.66640268],
+       [ 0.87065675,  0.46851745, -0.43857797, -0.64019753, -0.62973601,
+         1.48266473, -0.27200045, -0.985751  , -0.19679331,  0.11045473,
+         0.04850206],
+       [ 1.95947547, -0.21482103, -1.2960353 ,  0.44889258,  0.68098653,
+        -0.72871688, -0.80313164,  1.46060206,  0.27421132,  1.47064996,
+         0.38847718],
+       [ 0.63953303, -1.04351828, -0.2866662 , -0.00361878,  1.90358144,
+         0.49721793, -0.10763926,  0.70546895, -1.40591143, -0.9925109 ,
+         1.48247234],
+       [ 1.84880477, -0.85785686,  0.28823875,  0.77543104, -0.24619747,
+         0.00311232,  0.23304439,  0.99669721,  0.69030334, -0.59868574,
+        -1.90331028],
+       [ 0.30693229, -0.0773869 ,  0.36344166, -0.65706145,  0.41508269,
+        -0.77489449,  1.34416728, -0.58393761,  0.17112021,  0.57495882,
+        -0.62296154],
+       [-1.45455383, -0.25596534, -1.05846093, -1.02699549,  0.14454357,
+        -1.3226039 , -1.54385377, -1.00247124,  0.31575608,  0.43957396,
+        -0.69725968],
+       [ 1.41135186, -0.42927423, -0.21473849,  0.9852096 ,  1.00364132,
+        -0.87369561, -0.16437203,  0.8615163 , -1.16281236, -0.35499579,
+        -0.21965574],
+       [-0.23408445,  0.97181737, -1.84409136,  0.50155831, -1.41993906,
+         0.63540552,  1.34905655,  0.71276929, -0.5890633 ,  0.9058669 ,
+         1.34968526]])], shapes: [(11, 11)]
+
+
+INFO: trained network: biases --> 
+
+[array([[ 0.88101473],
+       [ 1.99325667],
+       [ 0.8155663 ],
+       [-0.99538165],
+       [ 0.60866375],
+       [ 0.45227706],
+       [-0.05903709],
+       [ 1.40325829],
+       [ 0.08025091],
+       [-0.40100908],
+       [ 0.89377442]])], shapes: [(11, 1)]
+
+
+INFO: data_set_name: wine
+
+
+INFO: trained network: AVERAGE ERROR --> 0.23981
+
+
+real	47m7.720s
+user	47m3.634s
+sys	0m2.915s

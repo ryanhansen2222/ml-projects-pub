@@ -1,0 +1,206 @@
+
+# NOTES ON DATA
+
+---------------------------------------------------------------------------
+
+breast-cancer:
+	instances: 699
+	attributes: 10 (all numeric values 1-10), +1 for class attribute
+	missing values: 16
+		- denoted by "?"
+		- the instances with missing values can probably just be removed...
+
+	NOTES:
+		- 2 possible classes: benign or malignant
+
+	#  Attribute                     Domain
+   -- -----------------------------------------
+   1. Sample code number            id number
+   2. Clump Thickness               1 - 10
+   3. Uniformity of Cell Size       1 - 10
+   4. Uniformity of Cell Shape      1 - 10
+   5. Marginal Adhesion             1 - 10
+   6. Single Epithelial Cell Size   1 - 10
+   7. Bare Nuclei                   1 - 10
+   8. Bland Chromatin               1 - 10
+   9. Normal Nucleoli               1 - 10
+  10. Mitoses                       1 - 10
+  11. Class:                        (2 for benign, 4 for malignant)
+
+  Class distribution:
+   Benign: 458 (65.5%)
+   Malignant: 241 (34.5%)
+
+---------------------------------------------------------------------------
+
+glass:
+	instances: 214
+	attributes: 10, +1 for class attribute
+	missing values: 0
+
+	NOTES:
+		- all attributes are continuously valued
+			- we need to bin each column based on the range of values for that column
+			- can we bin them according to whether each below is less than or greater than the average for that column?
+				- then we end up with all Boolean-valued columns, but does this generalize the data too much?
+			- or we could bin them according to the standard deviation for each column, where each bin size is equal to the SD?
+				- is this better than the less than / greater than average approach?
+
+		- the project document says: "for each attribute value, divide the number of examples
+		  							  that match that attribute value (plus one) by the number
+		  							  of examples in the class (plus # of attributes)"
+
+		- in order to look at "each attribute value" I think we'll need to
+		  fixed-width bin this data such that each bin captures multiple data points
+
+	Attribute Information:
+   		1. Id number: 1 to 214
+   		2. RI: refractive index
+   		3. Na: Sodium (unit measurement: weight percent in corresponding oxide, as are attributes 4-10)
+   		4. Mg: Magnesium
+   		5. Al: Aluminum
+   		6. Si: Silicon
+   		7. K: Potassium
+   		8. Ca: Calcium
+   		9. Ba: Barium
+  		10. Fe: Iron
+  		11. Type of glass: (class attribute)
+      		-- 1 building_windows_float_processed
+      		-- 2 building_windows_non_float_processed
+      		-- 3 vehicle_windows_float_processed
+      		-- 4 vehicle_windows_non_float_processed (none in this database)
+      		-- 5 containers
+      		-- 6 tableware
+      		-- 7 headlamps
+
+---------------------------------------------------------------------------
+
+iris:
+	instances: 150
+	attributes: 4 (all numeric), +1 for class attribute
+		- do we need to bin these values or should we just round them to whole numbers?
+	missing values: 0
+
+	NOTES:
+
+	Attribute Information:
+	   1. sepal length in cm
+	   2. sepal width in cm
+	   3. petal length in cm
+	   4. petal width in cm
+	   5. class: 
+	      -- Iris Setosa
+	      -- Iris Versicolour
+	      -- Iris Virginica
+
+	Class Distribution: 33.3% for each of 3 classes.
+
+---------------------------------------------------------------------------
+
+soybean:
+	instances: 47
+	attributes: 35 (all numeric) - already discretized for us! +1 for class attribute
+	missing values: 0
+
+	NOTES:
+
+	Attribute Information:
+		1. date:		april,may,june,july,august,september,october,?.
+	    2. plant-stand:	normal,lt-normal,?.
+	    3. precip:		lt-norm,norm,gt-norm,?.
+	    4. temp:		lt-norm,norm,gt-norm,?.
+	    5. hail:		yes,no,?.
+	    6. crop-hist:	diff-lst-year,same-lst-yr,same-lst-two-yrs,
+	                        same-lst-sev-yrs,?.
+	    7. area-damaged:	scattered,low-areas,upper-areas,whole-field,?.
+	    8. severity:	minor,pot-severe,severe,?.
+	    9. seed-tmt:	none,fungicide,other,?.
+	   10. germination:	90-100%,80-89%,lt-80%,?.
+	   11. plant-growth:	norm,abnorm,?.
+	   12. leaves:		norm,abnorm.
+	   13. leafspots-halo:	absent,yellow-halos,no-yellow-halos,?.
+	   14. leafspots-marg:	w-s-marg,no-w-s-marg,dna,?.
+	   15. leafspot-size:	lt-1/8,gt-1/8,dna,?.
+	   16. leaf-shread:	absent,present,?.
+	   17. leaf-malf:	absent,present,?.
+	   18. leaf-mild:	absent,upper-surf,lower-surf,?.
+	   19. stem:		norm,abnorm,?.
+	   20. lodging:    	yes,no,?.
+	   21. stem-cankers:	absent,below-soil,above-soil,above-sec-nde,?.
+	   22. canker-lesion:	dna,brown,dk-brown-blk,tan,?.
+	   23. fruiting-bodies:	absent,present,?.
+	   24. external decay:	absent,firm-and-dry,watery,?.
+	   25. mycelium:	absent,present,?.
+	   26. int-discolor:	none,brown,black,?.
+	   27. sclerotia:	absent,present,?.
+	   28. fruit-pods:	norm,diseased,few-present,dna,?.
+	   29. fruit spots:	absent,colored,brown-w/blk-specks,distort,dna,?.
+	   30. seed:		norm,abnorm,?.
+	   31. mold-growth:	absent,present,?.
+	   32. seed-discolor:	absent,present,?.
+	   33. seed-size:	norm,lt-norm,?.
+	   34. shriveling:	absent,present,?.
+	   35. roots:		norm,rotted,galls-cysts,?.
+
+	Class Distribution: 
+	   1. D1: 10
+	   2. D2: 10
+	   3. D3: 10
+	   4. D4: 17
+
+---------------------------------------------------------------------------
+
+votes:
+	instances: 435
+	attributes: 16 (all Boolean-valued), +1 for class attribute
+	missing values: yes, see below, denoted by "?"
+		- this one is the most difficult in terms of handling missing values
+		- we should just randomly generate a Y/N value for each missing value
+			this will be the easiest approach, at least for now
+
+	NOTES:
+
+	 Attribute Information:
+	   1. Class Name: 2 (democrat, republican)
+	   2. handicapped-infants: 2 (y,n)
+	   3. water-project-cost-sharing: 2 (y,n)
+	   4. adoption-of-the-budget-resolution: 2 (y,n)
+	   5. physician-fee-freeze: 2 (y,n)
+	   6. el-salvador-aid: 2 (y,n)
+	   7. religious-groups-in-schools: 2 (y,n)
+	   8. anti-satellite-test-ban: 2 (y,n)
+	   9. aid-to-nicaraguan-contras: 2 (y,n)
+	  10. mx-missile: 2 (y,n)
+	  11. immigration: 2 (y,n)
+	  12. synfuels-corporation-cutback: 2 (y,n)
+	  13. education-spending: 2 (y,n)
+	  14. superfund-right-to-sue: 2 (y,n)
+	  15. crime: 2 (y,n)
+	  16. duty-free-exports: 2 (y,n)
+	  17. export-administration-act-south-africa: 2 (y,n)
+
+	 Missing Values:
+		 Attribute:  #Missing Values:
+	           1:  0
+	           2:  0
+	           3:  12
+	           4:  48
+	           5:  11
+	           6:  11
+	           7:  15
+	           8:  11
+	           9:  14
+	          10:  15
+	          11:  22
+	          12:  7
+	          13:  21
+	          14:  31
+	          15:  25
+	          16:  17
+	          17:  28
+
+	Class Distribution: (2 classes)
+	   1. 45.2 percent are democrat
+	   2. 54.8 percent are republican
+
+---------------------------------------------------------------------------

@@ -1,0 +1,23 @@
+Brandon-
+Everything Backprop
+Setup P4 ExperimentRunner to take in params for learning algorithms
+Setup NeuralNetwork to be able to learn using P4 learning algorithms
+Debugging
+Worked on paper
+(Working on Extra Credit)
+
+Jared-
+Everything GA
+Worked on Paper
+Debugging
+
+Kyle-
+Everything DE
+Worked on Paper
+Debugging
+
+Ryan-
+Everything PSO
+Worked on Paper
+Debugging
+Helper methods in NeuralNetwork class

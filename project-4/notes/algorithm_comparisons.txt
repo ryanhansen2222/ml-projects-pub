@@ -1,0 +1,31 @@
+
+ALGORITHM COMPARISONS
+
+
+GENETIC ALGORITHMS VS BACKPROPAGATION
+
+
+"However, the BP algorithm suffers from a number of problems. It is very
+often trapped in local minima and is very inefficient in searching for global minimum of the search space."
+
+"GAS have the potential to produce a global minimum of the weight space and thereby avoid local minima."
+
+"When nearly global minima are well hidden among the local minima, backpropagation can end up bouncing
+between local minima without much overall improvement, thus leading tor very slow training."
+
+	- from https://ieeexplore-ieee-org.proxybz.lib.montana.edu:3443/stamp/stamp.jsp?tp=&arnumber=938792
+
+
+DIFFERENTIAL EVOLUTION VS GRADIENT BASED METHODS (BACKPROP)
+
+
+"DE performance typically comparable to gradient based methods - no distinct advantage over gradient based methods"
+
+	- from http://vision.cs.tut.fi/data/publications/NPL2003.pdf
+
+
+EVOLUTION VS BACKPROP
+
+
+	- evolutionary strategies don't need differentiable activation functions
+

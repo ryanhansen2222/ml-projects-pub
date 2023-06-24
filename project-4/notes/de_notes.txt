@@ -1,0 +1,75 @@
+
+NOTES on Differential Evolution
+
+
+OVERVIEW
+
+
+	- heuristic algorithm for global optimization
+	- can be applied to global searches within the weight space of a feedforward neural network
+	- operates on a population of N candidate solutions
+	- maintains constant size population that consists of N real-valued vectors
+
+
+PARAMETERS
+
+
+	- F: scales values added to particular decision variables, typically in range [0,2]
+	- CR: crossover rate, in range [0,1] 
+		- represents probability that trial vector params will come 
+			from randomly chosen mutated vector instead of current vector
+
+	F and CR affect convergence speed and flexibility of search process
+		- optimal values depend on characteristics of cost function and population size
+
+	- might need weights penalty term
+		- there might be infinite solutions for MLP weights/biases and DE might explode the values
+		- penalty term can keep weights/biases small to avoid this issue
+
+
+INITIALIZATION and EXECUTION
+
+
+	- after random initialization of first population:
+		- vectors in current population p_g are randomly sampled and combined to create vectors in p_g+1
+		- each individual of temporary population is compared to its counterpart in current population
+			- vector with lower cost goes to next population (lives on)
+				- (therefore) all vectors in next iteration are better than 
+						or equal to their counterparts in the current generation
+
+
+OTHER
+
+	- each trial vector only compared to one individual
+		- (instead of more than one individual in other evolutionary algorithms)
+
+	- never diverges from or loses the best solution found so far
+	- robust - can find optimum in most cases
+		- convergence to global minimum can be expected
+
+	- performance typically comparable to gradient based methods
+		- no distinct advantage over gradient based methods
+
+	- scalable - can be applied to huge networks
+
+	- flexible 
+		- no restrictions on cost function
+			- i.e. no requirement for differentiability of activation function
+		- no major restrictions on regularization methods
+
+	- DE computes diff between just two vectors at a time
+		- (therefore) determines function gradient in given area, which prevents getting stuck in local minima
+
+
+LINKS
+
+
+	- http://vision.cs.tut.fi/data/publications/NPL2003.pdf
+
+	- good explanation of DE in DE section of this paper:
+		- https://pdfs.semanticscholar.org/9380/d2591edd48155352ffb90fa44f076f8641e3.pdf
+
+	- pseudocode for DE algorithm:
+		- https://ieeexplore-ieee-org.proxybz.lib.montana.edu:3443/stamp/stamp.jsp?tp=&arnumber=4581409
+
+

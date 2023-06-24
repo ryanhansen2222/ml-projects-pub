@@ -1,0 +1,46 @@
+
+NOTES - STACKED AUTOENCODER
+
+stacked autoencoder
+
+
+autoencoders
+
+- specific type of feedforward neural network where the input is the same as the output
+- compress the input into a lower-dimensional code and then reconstruct the output from this representation
+
+- 3 components: encoder, code and decoder
+	- encoder compresses the input and produces the code
+	- decoder then reconstructs the input only using this code
+
+- autoencoders are mainly a dimensionality reduction (or compression) algorithm
+	- only able to meaningfully compress data similar to what they have been trained on
+
+- lossy: output not same as input
+
+- unsupervised: just throw raw training data at it to train it
+	- technically: "self-supervised"
+
+- both the encoder and decoder are fully-connected feedforward neural networks
+- code is single layer, size of layer is a hyperparameter to be tuned
+
+- only requirement is the dimensionality of the input and output needs to be the same
+	- anything in the middle can be played with
+
+- 4 hyperparameters:
+	- code size: number of nodes in code layer
+	- number of layers
+	- number of nodes per layer
+	- loss function: typically mean squared error or binary cross-entropy
+
+
+
+PAPERS
+
+- http://www.jmlr.org/papers/volume11/erhan10a/erhan10a.pdf
+- https://www.cs.toronto.edu/~larocheh/publications/icml-2008-denoising-autoencoders.pdf
+- http://www.dmi.usherb.ca/~larocheh/publications/deep-nets-icml-07.pdf
+
+- http://www.jmlr.org/papers/volume11/vincent10a/vincent10a.pdf
+	- tells us to use SGD in pre-training phase as well
+
