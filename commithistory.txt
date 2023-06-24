@@ -1,0 +1,2048 @@
+commit 24bf2cad226c097079e7976ef35583e198217ad5
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Wed Dec 11 02:40:44 2019 -0700
+
+    add MLEC contributions file
+
+commit 43d16c62820ea569ff5ae215ea63f07ee8d9cbc6
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Wed Dec 11 02:32:52 2019 -0700
+
+    final commit for extra credit project
+
+commit 46a22baa2e1ae09aa9f2e8cb0c7688f5b9b0a1b3
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Wed Dec 11 00:32:06 2019 -0700
+
+    buncha stuff and things and results for extra credit project
+
+commit 9a79df9b3b039bd435d8a2b01e5dfb0c674dca0f
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Mon Dec 9 13:38:29 2019 -0700
+
+    final commit for P4
+
+commit f124b59b3e4059a42a7f2fe3a9f5b741b757c116
+Merge: ba8af1f 850693d
+Author: Ryan <ryanhansen2222@gmail.com>
+Date:   Mon Dec 9 12:41:36 2019 -0700
+
+    Merge branch 'master' of https://github.com/brandonsladek/machine-learning-projects
+
+commit ba8af1f122432ed82923d3d18acb10db39c1dbe0
+Author: Ryan <ryanhansen2222@gmail.com>
+Date:   Mon Dec 9 12:40:40 2019 -0700
+
+    Contributions
+
+commit 6e2b5f0507171eb21417dcc012efcd25bcff9557
+Author: Ryan <ryanhansen2222@gmail.com>
+Date:   Mon Dec 9 11:43:57 2019 -0700
+
+    PSO particle V update
+
+commit 850693d13e4dbce5265ea047bb9b1e2f33a8769e
+Merge: a6825ab a1c3a0c
+Author: Kyle Hagerman <hagermankyle96@gmail.com>
+Date:   Sun Dec 8 16:20:36 2019 -0700
+
+    resolve merge conflicts
+
+commit a6825ab143e60b9a3a9b5af45a29428e26d556ae
+Author: Kyle Hagerman <hagermankyle96@gmail.com>
+Date:   Sun Dec 8 16:17:24 2019 -0700
+
+    minor adjustments
+
+commit 7f5215ef66ec88ff7038e006dc01c382330452f3
+Author: Kyle Hagerman <hagermankyle96@gmail.com>
+Date:   Sun Dec 8 16:17:06 2019 -0700
+
+    minor adjustments
+
+commit a1c3a0c27d8b109558f07520dcbdea27f9d32aba
+Merge: 70a83ac 4ed6767
+Author: Ryan <ryanhansen2222@gmail.com>
+Date:   Sun Dec 8 16:03:39 2019 -0700
+
+    Fitness Method Update
+
+commit 70a83acef8b0d1b6a17fe41aeabf89c8c4d88878
+Author: Ryan <ryanhansen2222@gmail.com>
+Date:   Sun Dec 8 16:00:11 2019 -0700
+
+    Update fitness method
+
+commit 4ed67672b63641226c03b31e7a7852a6ef874d89
+Merge: ed62e69 32f5165
+Author: Jared Thompson <jaredthompson@Macbook-Pro-4>
+Date:   Sat Dec 7 17:11:05 2019 -0700
+
+    Merge branch 'master' of https://github.com/brandonsladek/machine-learning-projects
+    
+    GA updates:
+
+commit ed62e69f8a2ae89b216abb5452c85feeb617bebb
+Merge: 2cb9b82 df12edc
+Author: Jared Thompson <jaredthompson@Macbook-Pro-4>
+Date:   Sat Dec 7 17:10:57 2019 -0700
+
+    GA UPDATES
+
+commit 32f51658bc4717a92473cbc209202a86cbf880eb
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sat Dec 7 17:10:20 2019 -0700
+
+    remove remaining merge conflict symbols from sae network file
+
+commit 2cb9b822241f712435e3c05f6571d91d4f280e62
+Merge: 843ffb4 e8765a1
+Author: Jared Thompson <jaredthompson@Macbook-Pro-4>
+Date:   Sat Dec 7 17:09:58 2019 -0700
+
+    GA commits
+
+commit df12edc6fc8938ad93eb71184a23b4779e45e1b6
+Merge: 55e6f68 e8765a1
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sat Dec 7 17:08:22 2019 -0700
+
+    pull and resolve merge conflict
+
+commit 843ffb47bdb9552e5e1ae1b3fe4b8569446e29c4
+Author: Jared Thompson <jaredthompson@Macbook-Pro-4>
+Date:   Sat Dec 7 17:07:22 2019 -0700
+
+    GA changes
+
+commit 55e6f6871c53f437443261f392a7ac17bfd5059c
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sat Dec 7 17:05:44 2019 -0700
+
+    change sae network handle prediction to properly handle whether MLP network is appended
+
+commit e8765a1af1cf1bbac4716fad0c3b25ba0273dbe1
+Author: Kyle Hagerman <hagermankyle96@gmail.com>
+Date:   Sat Dec 7 16:58:16 2019 -0700
+
+    conflicts resolved, de pushed
+
+commit 4094f0ecf3a736cf3ab4b064858bf9f6ba1179c8
+Merge: c18835e b51b82e
+Author: Kyle Hagerman <hagermankyle96@gmail.com>
+Date:   Sat Dec 7 16:52:06 2019 -0700
+
+    fixing conflicts
+
+commit b51b82e7760f1a10c84d746ce4b687c840b72355
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sat Dec 7 16:46:26 2019 -0700
+
+    fix network saving and loading logic - replace use of colons with hyphens
+
+commit 5f88c892e10c3cd24ae04a7fe0f7341bcc5302c0
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sat Dec 7 16:43:52 2019 -0700
+
+    rename all pickled files to use hyphens instead of colons - windows no like colons
+
+commit c18835e4d3fea115bce57ccd71553a4daeabcddf
+Author: Kyle Hagerman <hagermankyle96@gmail.com>
+Date:   Sat Dec 7 16:27:11 2019 -0700
+
+    de running
+
+commit aa3a8b5ab9953171124626bd8141cb3c2179fd43
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Fri Dec 6 23:36:13 2019 -0700
+
+    everything running for SAE network for all CV partitions, added exit early boolean for short-circuiting CV loop
+
+commit 07528c5c5f4d7d4d8c839bb123b3f26ccc07aea4
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Fri Dec 6 22:52:56 2019 -0700
+
+    SAE network doing predictions with MLP network appended for all CV iterations
+
+commit bff0becc8185b8357f36ce321efc0c844bdf2211
+Author: Kyle Hagerman <hagermankyle96@gmail.com>
+Date:   Fri Dec 6 22:44:16 2019 -0700
+
+    de finished
+
+commit 401f46fa4868a3f7a625add8a1f89e9fa1f1a1a7
+Author: Kyle Hagerman <hagermankyle96@gmail.com>
+Date:   Fri Dec 6 22:41:28 2019 -0700
+
+    de finished
+
+commit 050d5ccfed278825d8d796e49834aba64f995df3
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Fri Dec 6 00:22:31 2019 -0700
+
+    save P3 MLP network instances with hyperparams file names, only do one CV iteration if saving file
+
+commit 66441154cddff0fe8d7df35303c77da8906404dc
+Author: Jared Thompson <jaredthompson@Macbook-Pro-4>
+Date:   Thu Dec 5 21:37:16 2019 -0700
+
+    Updated baby
+
+commit 97b65abce0776b46f08234ddb0c5942b17f495f9
+Merge: 23eca46 bd21187
+Author: Ryan <ryanhansen2222@gmail.com>
+Date:   Thu Dec 5 20:45:15 2019 -0700
+
+    Merge conf resolved
+
+commit 23eca46a90771bffbfd5219c63a9b7cbf383b276
+Author: Ryan <ryanhansen2222@gmail.com>
+Date:   Thu Dec 5 20:36:02 2019 -0700
+
+    PSO Results work
+
+commit bd211877bce9e67db3bc878524010aec5293ef37
+Author: Jared Thompson <jaredthompson@Macbook-Pro-4>
+Date:   Thu Dec 5 20:33:54 2019 -0700
+
+    daddJ is on the scene
+
+commit 5464cc72e320200e307f1c551f3ddb6892891e19
+Author: Jared Thompson <jaredthompson@Macbook-Pro-4>
+Date:   Thu Dec 5 20:28:17 2019 -0700
+
+    DADDJ is on the scene with GA
+
+commit 0ea3de72efbea5c4a587f453a3447024231ddaec
+Merge: 723df42 e53c46f
+Author: Kyle Hagerman <hagermankyle96@gmail.com>
+Date:   Thu Dec 5 19:37:45 2019 -0700
+
+    fix merge conflicts
+
+commit 723df423d829c3dae336d85675febce9bdc71274
+Author: Kyle Hagerman <hagermankyle96@gmail.com>
+Date:   Thu Dec 5 19:33:44 2019 -0700
+
+    polishing de learner...
+
+commit e53c46fd5770d4a9aba6c47a23c8df58342f1904
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Thu Dec 5 19:29:34 2019 -0700
+
+    changes for hooking up DE learner to experiment runner
+
+commit aa447dfce620e425baa64d55639626773335f327
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Wed Dec 4 23:00:48 2019 -0700
+
+    another test commit after doing git config global...
+
+commit 4343411a9c5704a18d9e85586620b360d4484227
+Author: Brandon Sladek <brandonsladek@Brandons-MacBook-Pro.local>
+Date:   Wed Dec 4 22:59:16 2019 -0700
+
+    test commit to test github username with new computer
+
+commit 1c4a61282b366c7b519886172f5dd6efa92d1934
+Author: Brandon Sladek <brandonsladek@Brandons-MacBook-Pro.local>
+Date:   Wed Dec 4 22:55:16 2019 -0700
+
+    add network loader script for appending unpickled network to pre-trained SAE network for prediction
+
+commit 81f23e855407934938ba589f3b53d8ca02e33c9b
+Author: Kyle Hagerman <hagermankyle96@gmail.com>
+Date:   Tue Dec 3 23:45:32 2019 -0700
+
+    uncommenting lines I commented for PSO, PSO should run if you run experiment_runner.py
+
+commit a8bdd40f9a2499c400bf20ef86e2a4cbce91f8a6
+Author: Kyle Hagerman <hagermankyle96@gmail.com>
+Date:   Tue Dec 3 23:42:36 2019 -0700
+
+    Dump of all things DE, haven't run yet. Will discuss questions with group tomorrow to make sure my methods are correct-- I know it won't run as is now
+
+commit 2178b87b66d7f637d431021482dcda715599fc9a
+Author: Ryan <ryanhansen2222@gmail.com>
+Date:   Tue Dec 3 22:06:42 2019 -0700
+
+    Fix bug with getexpectedoutput
+
+commit bf380e356695159780446cc38433d6b9328a8ea6
+Merge: 179fa74 ee90a01
+Author: Ryan <ryanhansen2222@gmail.com>
+Date:   Tue Dec 3 09:51:14 2019 -0700
+
+    Merge branch 'master' of https://github.com/brandonsladek/machine-learning-projects
+
+commit 179fa74723433395e7b146c635f25895535071f1
+Author: Ryan <ryanhansen2222@gmail.com>
+Date:   Tue Dec 3 09:50:53 2019 -0700
+
+    PSO works 100%
+
+commit ee90a01c5496502cd389e44b5848e3e528ee6c66
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Mon Dec 2 01:09:22 2019 -0700
+
+    sae experiment runner running all the way through, need to change usage of CV
+
+commit 916c0b083eea963b032b7d1e161e01879e793b80
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Dec 1 18:28:56 2019 -0700
+
+    use gradient descent to train SAE after adding layer, add INFO logging for debugging
+
+commit 9d35f8bd33b9e526d4325229f7ee4e11632c0562
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Dec 1 17:46:10 2019 -0700
+
+    add_layer and init_layer are correctly adding and randomly initializing new layers
+
+commit a05292c78e449aa49ba7259fb270adaa591940d7
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Nov 24 17:18:14 2019 -0700
+
+    add mechanism for saving trained network instance from P3 and reading it from file
+
+commit 16a8549e72dcbd45c4f504a0462fe30618ead5a9
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Nov 24 00:29:19 2019 -0700
+
+    add /data/networks/ directory for storing pickled MLP instances for use in SAE networks
+
+commit 9d7fe2d8c18d9d675b066bdad11621ab3cd999cc
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sat Nov 23 23:59:58 2019 -0700
+
+    add various things for building SAE network using unsupervised pre-training, add comments
+
+commit c79610dce702fc79b3b93ce601aa4079f9ef1746
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sat Nov 23 19:56:06 2019 -0700
+
+    various things for stacked auto encoder, port P4 experiment runner to EC
+
+commit 969f86013d5d73855f4a93ab2fbd8a24e6b2b800
+Author: Ryan <ryanhansen2222@gmail.com>
+Date:   Fri Nov 22 16:22:25 2019 -0700
+
+    PSO Complete, still can add minor QOL improvements
+
+commit 3ca06450cc7c26d3ed872acd6b4304cdf8519391
+Author: Ryan <ryanhansen2222@gmail.com>
+Date:   Thu Nov 21 18:11:36 2019 -0700
+
+    PSO almost done
+
+commit 4bddbf1dd21deb635fa3c5e03d8fbdc6049617b5
+Author: Ryan <ryanhansen2222@gmail.com>
+Date:   Tue Nov 19 14:30:44 2019 -0700
+
+    Working on fitness calc
+
+commit 49f7d81f2ef842e335e8e2c2c67d3e164629fc98
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Mon Nov 18 22:31:06 2019 -0700
+
+    update with master and fix merge conflict, add notes and links
+
+commit ff0b8d76b3d5e8b6b5cd6ecb3b1acc241c8c679d
+Author: Ryan <ryanhansen2222@gmail.com>
+Date:   Mon Nov 18 21:37:02 2019 -0700
+
+    init_population in Neural Net Class, Good chunk of PSO
+
+commit 7d94c9725ee5932b9f4ad216be1934a2e5ec6708
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Tue Nov 12 23:53:53 2019 -0700
+
+    add notes on differential evolution and comparison to gradient based methods
+
+commit 6d072b9ed3eb25c0ddfc7b194e6053d8f5a5f67c
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Tue Nov 12 22:32:30 2019 -0700
+
+    add pso particle class, add base for experiment runner, configure learning params
+
+commit 66f490db0c52053a83ed4d99a6b943e7e01f6fb1
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Tue Nov 12 21:24:39 2019 -0700
+
+    add detailed method stubs for genetic algorithm learner
+
+commit a3b557b3a0a9afd268a1be1abb3bc45e4dc36e96
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Tue Nov 12 20:55:37 2019 -0700
+
+    class skeletons for learners
+
+commit 19655919e155fda4044cc77dd53d8dc2088aabd4
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Tue Nov 12 00:15:48 2019 -0700
+
+    add notes on genetic algorithms and comparisons with excerpts from research paper
+
+commit 7e21cc41ebbddc9ce840eabe7c42b7b235b64bba
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Mon Nov 11 20:39:37 2019 -0700
+
+    add notes on particle swarm optimization
+
+commit f9b12cd79316fc5bdb9c007a297e1b934b36b549
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Mon Nov 11 19:40:39 2019 -0700
+
+    initial commit for project-4
+
+commit 85a8b73db7411cd3c164f5cffb9e05148f55f702
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Fri Nov 8 13:30:09 2019 -0700
+
+    add contributions file for P3
+
+commit abba2bedd8685a1c607a99a6ddedf43efcba0657
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Fri Nov 8 13:25:42 2019 -0700
+
+    final commit for P3
+
+commit 9a240b38567720cc5118a47864e63b90b48f238b
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Fri Nov 8 00:24:56 2019 -0700
+
+    add logs of various MLP runs and clean up some logging things
+
+commit b03c68c5730f587dbf841650f34437daf70f30c6
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Thu Nov 7 21:42:23 2019 -0700
+
+    display hyperparams at beginning of experiment
+
+commit c4a24f2a73e2f9ff60ea29fe52c639570120e3fa
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Thu Nov 7 19:24:32 2019 -0700
+
+    fix cnn P2API issue
+
+commit 053e01e6b7eef95fa73bec858baaa6e3ba89b1d4
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Thu Nov 7 18:36:10 2019 -0700
+
+    init RBF neurons for each P2 data set in configure rbf network method
+
+commit ffa061b0bf8b30de43aa5997450797019860bfbe
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Thu Nov 7 01:03:47 2019 -0700
+
+    add first draft of report to notes dir for safe keeping
+
+commit a86ba4f27b021f935b675d3fd1a6b7dfc30296c8
+Merge: 93c7bda 0f4f055
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Wed Nov 6 21:30:27 2019 -0700
+
+    fix merge conflict
+
+commit 93c7bda499b112e7f748de063b15bfd0546f124f
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Wed Nov 6 21:23:54 2019 -0700
+
+    call corresponding derivative activation value methods based on activation config in each layer
+
+commit 0f4f05536dd79b7e8d7ad886769828a84416dcb5
+Author: Hagerman <f35m343@msu.montana.edu>
+Date:   Wed Nov 6 20:35:41 2019 -0700
+
+    fixing cnn calls
+
+commit 2d54c95950a0eb73f31ac6fc988759f8d62910cb
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Wed Nov 6 20:19:29 2019 -0700
+
+    pull k value from hyperparams through P2API to k medoids clustering code
+
+commit a82a87411d0ba0ee404252e41baa8c7f91ee0487
+Author: Kyle Hagerman <hagermankyle96@gmail.com>
+Date:   Wed Nov 6 19:18:16 2019 -0700
+
+    k for medoids added
+
+commit a258061e798545a19e691a55529283f154fe23f7
+Author: Kyle Hagerman <hagermankyle96@gmail.com>
+Date:   Wed Nov 6 19:08:49 2019 -0700
+
+    kmedoids push
+
+commit ff9afe69f79fa3ac252fa0ba298e99b986dceda2
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Wed Nov 6 00:35:18 2019 -0700
+
+    RBF network working for regression data sets too
+
+commit d9e2c3d2a209245d683c1b829a54b5f2d0636cb1
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Wed Nov 6 00:32:49 2019 -0700
+
+    various clean up things and making RBF demo logging look better
+
+commit 4b692201fd9489b7cacdb572698bd492a750ffee
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Tue Nov 5 23:16:21 2019 -0700
+
+    first full run through with RBF network using segmentation data, just had to reset RBF layer each time it gets configured
+
+commit e524ea7cda33b5659309712feec45e0b516399e1
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Tue Nov 5 22:37:02 2019 -0700
+
+    gradients are flowing for RBF network, a few minor edge cases remain
+
+commit 64b33605c3df738802bedd57b06cdd3e31caa316
+Author: Jared Thompson <jaredthompson@macbook-pro-4.home>
+Date:   Tue Nov 5 21:00:48 2019 -0700
+
+    new committ
+
+commit 2ca99e1331c14c137d83f9cb9fc9c90da41a89c4
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Tue Nov 5 20:41:59 2019 -0700
+
+    stuff and things
+
+commit b658429696883660efc665b0131e52ca2cbf4252
+Merge: c990622 0195e68
+Author: Jared Thompson <jaredthompson@MacBook-Pro-4.local>
+Date:   Tue Nov 5 18:31:11 2019 -0700
+
+    updated the do_forward method to integrated with Neural network
+
+commit c990622fd336f8be324a42f5e6a0c3f40dd43cab
+Author: Jared Thompson <jaredthompson@MacBook-Pro-4.local>
+Date:   Tue Nov 5 18:27:29 2019 -0700
+
+    updated do-foward in rbf
+
+commit 85d3fca71909043ae24e583620bd9ac2bf1ae6a6
+Author: Jared Thompson <jaredthompson@MacBook-Pro-4.local>
+Date:   Tue Nov 5 18:26:21 2019 -0700
+
+    updated do_foward so that it integrates with Neural Network
+
+commit 0195e6856e7142afce3605bb27d8c58bbf66db8e
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Mon Nov 4 22:01:25 2019 -0700
+
+    add logging to rbf network class, fix layer sizes in execution section
+
+commit a01477dd1c0eea1e06544ce720cc58d479543ec6
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Mon Nov 4 01:11:34 2019 -0700
+
+    good state for MLP network testing
+
+commit 0cfbf84fc10a5dd481f2ae49d9f2f53593bdf6a7
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Mon Nov 4 01:01:51 2019 -0700
+
+    RBF network can get kmeans centroids and kmedoids medoids for network shape setup
+
+commit 442dd185bab964dbcb27f9c862faa673cd9804c9
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Mon Nov 4 00:34:49 2019 -0700
+
+    RBF network can get CNN data for network setup, looks like there is a bug in CNN code
+
+commit f958bb6f9a07fef600058096233d02a6f3b85f43
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Mon Nov 4 00:22:45 2019 -0700
+
+    RBF network class can run P2 enn algorithm to get edited training set
+
+commit bf5ef0aa5a5065fb18b594d6b717e14a94f61839
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Nov 3 23:31:54 2019 -0700
+
+    add P2API for getting results from P2 for RBF network setup, get enn for RBF network
+
+commit 0237bedbd9c0a2dfa56bf8e2189325eb43b19802
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Nov 3 22:29:05 2019 -0700
+
+    delete project-3 experiment runner that was ported over from project-2
+
+commit 572a061b4ab8a3fbdef02cfbe05d4ec7ca5a0543
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Nov 3 17:12:32 2019 -0700
+
+    add support for hyperbolic tangent activation function, move layer activation function spec to hyperparams
+
+commit bb7884b008c4b0f4636008d21c70e4649d7f5378
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Nov 3 15:33:44 2019 -0700
+
+    specify activation functions by layer, add support for relu, great results on machine data
+
+commit 0332b902a77d2df0cee44cb2aba0df5936c88d6f
+Merge: eb5b41e 28b0d02
+Author: Jared Thompson <jaredthompson@macbook-pro-3.home>
+Date:   Sun Nov 3 11:31:30 2019 -0700
+
+    Merge branch 'master' of https://github.com/brandonsladek/machine-learning-projects
+
+commit eb5b41e5b70a69aa982de5a1ffa244df30ebe64d
+Author: Jared Thompson <jaredthompson@macbook-pro-3.home>
+Date:   Sun Nov 3 11:31:10 2019 -0700
+
+    updated RBF, should be doing forward prop now but need to work in how back prop and gradient descent will work
+
+commit 28b0d02c6a0b70dd8884cf0955dce76ff6339bc8
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Nov 3 03:06:00 2019 -0700
+
+    various minor changes and clean up, rename algorithms dir to networks
+
+commit 7dd13868cb7356bcf2ffe3adb5953145fd412a71
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Nov 3 02:06:53 2019 -0700
+
+    clean up usage of hyperparameters throughout methods
+
+commit cbe1cc321baa6d2e811f3cf30887a1b6e8cc20de
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Nov 3 01:08:38 2019 -0700
+
+    validate input/output layer sizes by data set and throw assertion error if invalid
+
+commit ee22c31dc6c8143318884dafb10441bbff1d66b5
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sat Nov 2 23:50:14 2019 -0600
+
+    added support for using momentum in training phase
+
+commit d2946f05b8df473c4b0954cd574c4b75743298da
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sat Nov 2 23:09:41 2019 -0600
+
+    mlp network working on all CLASSIFICATION and REGRESSION data sets
+
+commit 91a4eefeca1be34f79bb58746c3f4ca8e3d263a5
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sat Nov 2 22:38:55 2019 -0600
+
+    clean up logging for mlp network execution on regression data sets
+
+commit dc38b748b5d3ced7915b47d04753e393b5acf325
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sat Nov 2 21:48:53 2019 -0600
+
+    mlp network running all the way through on machine data for REGRESSION
+
+commit c84f24a64550ef25f9f7267f540c986e4c9ff5c4
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sat Nov 2 21:04:33 2019 -0600
+
+    move hyperparams arg to run_experiment method in experiment_utils, better design
+
+commit 2b2b2beee7123b179c962b1e6bafd133c00f2ba0
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sat Nov 2 20:48:10 2019 -0600
+
+    create experiment_utils script for doing heavy lifting of experiment running logic
+
+commit ecdaef6a4bef2d0a5656a508b5beda027e03fefe
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Fri Nov 1 10:49:10 2019 -0600
+
+    add links to research papers in sae notes
+
+commit 20abf0a744aea1f8b28c8a76ddae556acc6dc4b9
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Fri Nov 1 00:18:43 2019 -0600
+
+    add comments and setup for sae constructor
+
+commit 10bc442dbfe3fcfcfb5749b24acd4388d41bbe2d
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Fri Nov 1 00:06:07 2019 -0600
+
+    add experiment runner and stacked_autoencoder class skeletons for extra credit project
+
+commit 5a8ac4691b82624876339d306895e8ca38bfc2a9
+Merge: 5de49eb 16c2d1f
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Thu Oct 31 23:32:28 2019 -0600
+
+    Merge branch 'master' of https://github.com/brandonsladek/machine-learning-projects
+
+commit 5de49eb22862e4016fa0e63138d218391800cffd
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Thu Oct 31 23:32:23 2019 -0600
+
+    add directories and notes for extra credit project
+
+commit 16c2d1f08da63ee363874df54c46d8a8c75d7c00
+Merge: ee28c78 a62f726
+Author: Jared Thompson <jaredthompson@MacBook-Pro-2.local>
+Date:   Thu Oct 31 16:49:01 2019 -0600
+
+    Merge branch 'master' of https://github.com/brandonsladek/machine-learning-projects
+
+commit ee28c7853561d58e4500014da714206aed28c90a
+Author: Jared Thompson <jaredthompson@MacBook-Pro-2.local>
+Date:   Thu Oct 31 16:47:58 2019 -0600
+
+    RBF moves through dataframe and gets the beta and RBF vector values. Saved to self.rbf_neurons
+
+commit a62f726bea93505995029566c45462de4bb15597
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Wed Oct 30 22:09:39 2019 -0600
+
+    clean up logging
+
+commit 435d6d00d06f556fe36650e188b9da235632d416
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Wed Oct 30 21:22:57 2019 -0600
+
+    shuffle training data in each gradient descent iteration so batches are always different
+
+commit c79e2e6aa5246e7a333827ad2c96d6b5f8423441
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Mon Oct 28 00:51:41 2019 -0600
+
+    add comments and clean up various sections of the current code
+
+commit 5617305e3218e42a2ff9c0210518e6213e349535
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Oct 27 23:51:52 2019 -0600
+
+    clean up neural network script execution section and DEMO logging, add support for car and abalone data
+
+commit afdd1e17ace9d144f96c58d48da18d831f3e80a8
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Oct 27 19:41:27 2019 -0600
+
+    network training successfully runs through 5 iterations and prints accuracy results after each iteration
+
+commit 4cd6a3d4c00d93f235e6f0a72ffbca81d4c6f482
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Oct 27 18:21:54 2019 -0600
+
+    network training running all the way through with no errors on segmentation data
+
+commit acab220966b56e22b5d4d722d81f78eef354b48e
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Oct 27 17:40:27 2019 -0600
+
+    setup expected output vector given an actual output class value
+
+commit 6ba0ef590ddca7ccf204dbff83421b87f481793e
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Oct 27 16:57:44 2019 -0600
+
+    fixed issue with numpy array shape causing error on sigmoid calculation
+
+commit 572017ac043054aa5601d30fc0cbafb8a7480927
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Oct 27 16:15:06 2019 -0600
+
+    add logger class for logging things at different levels and configuring log level per logger instance
+
+commit 48b7c8ae8a3b879c58547a7abf1b86fec1a4dff6
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Fri Oct 25 00:39:48 2019 -0600
+
+    implemented remaining methods needed for network training, bug in z vector squish flow
+
+commit f9d3e53cac7002cf0186726df9494976d5e20470
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Thu Oct 24 00:46:56 2019 -0600
+
+    various updates to neural network base class and rbf network class: random init, forward prop, squishification
+
+commit c273eee3b6a8c0f72e0b6174d6d6d03b9054ebde
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Wed Oct 23 23:44:28 2019 -0600
+
+    add skeleton methods for mostly everything needed in neural network base class, add activation functions
+
+commit 5b85a68f602cdcc5eba5d476278dd9cbcb86724c
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Wed Oct 23 22:41:23 2019 -0600
+
+    delete unnecessary p3 files for things we're reusing from p2
+
+commit e117497d06422b080e0f4c5801789b3bbbcf43c7
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Wed Oct 23 22:25:28 2019 -0600
+
+    port experiment runner from project 2 and update imports to reference project 2 dirs
+
+commit 93744182eca2ee1c73eb32cbe4cba6df055610dc
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Wed Oct 23 22:09:08 2019 -0600
+
+    add class skeletons for neural network base class and mlp and rbf network classes
+
+commit eef8a0432641b4ed92e8787bcdc6243c5d44db9f
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Wed Oct 23 00:04:28 2019 -0600
+
+    add notes on neural networks - notes from youtube videos 3Blue1Brown
+
+commit e63cb57d28ad6984836e9b3b2dfd950e08bca692
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Wed Oct 16 23:46:36 2019 -0600
+
+    add data directory contents from project-2 into project-3 data dir
+
+commit 1c9125deedb9d37d3ecd505241feee3d87f63b49
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Wed Oct 16 23:41:09 2019 -0600
+
+    initial commit for project-3, add directories and empty files
+
+commit 500eead8e2bd0a761ca0abac896a866cfed095b0
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Fri Oct 11 13:17:31 2019 -0600
+
+    final commit for project 2
+
+commit cd8a6c8a21c38446ce00add9c55a3e5289768073
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Thu Oct 10 23:56:46 2019 -0600
+
+    fix issue causing k means clustering to skip iterations
+
+commit a236c1600d770db1b6e36c48f52dc1b493fcd17c
+Merge: 3c425c3 1e791fe
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Thu Oct 10 23:30:22 2019 -0600
+
+    update with remote repo and fix merge conflicts, use test instance name in get knn by dist mat
+
+commit 3c425c30cfa3e5b467fad2bd4c8e36ae60aa420f
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Thu Oct 10 23:19:37 2019 -0600
+
+    fixed issues with k means clustering, use idx_mapping, getting 70% on car kmeans_knn
+
+commit 1e791fe639fb934488f19122970fac39314dd3ac
+Author: Hagerman <f35m343@msu.montana.edu>
+Date:   Thu Oct 10 23:06:48 2019 -0600
+
+    added results for kmedoids
+
+commit 8c9ccb7f60876be708f999ddb8084dd4c24ac372
+Author: Kyle Hagerman <hagermankyle96@gmail.com>
+Date:   Thu Oct 10 22:46:18 2019 -0600
+
+    running kmedoids without edited training set because enn seems to be having problems
+
+commit 05e3bc19a5eeed401f256f519f9a7d9330f01912
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Thu Oct 10 21:41:45 2019 -0600
+
+    clustering working again, using random points approach though
+
+commit 7b1fdd1d20530a8d106d3cb5b8df720500e0e18d
+Merge: 6d08c20 21331cb
+Author: Kyle Hagerman <hagermankyle96@gmail.com>
+Date:   Thu Oct 10 19:52:30 2019 -0600
+
+    fix kmedoids experiment runner call
+
+commit 6d08c20a7065c244afeca8afa9cddd7d67bca0e1
+Author: Kyle Hagerman <hagermankyle96@gmail.com>
+Date:   Thu Oct 10 19:50:05 2019 -0600
+
+    fixing medoids
+
+commit 21331cbc03045c9fa85fb9297b008cb8c28216e7
+Author: Ryan <ryanhansen2222@gmail.com>
+Date:   Thu Oct 10 19:36:08 2019 -0600
+
+    Update MSE calc to be meaningful
+
+commit 6fb958421fe34864ad58602fdf5862a9ae60487f
+Merge: e594d03 9c610eb
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Thu Oct 10 19:16:48 2019 -0600
+
+    update and fix merge conflict
+
+commit e594d03c9b0c3112e0903af5929de00c2c5a0850
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Thu Oct 10 19:12:48 2019 -0600
+
+    code in distinction between classification and regression in enn editing
+
+commit 9c610ebed7e0b8c70958d5b0215d408d5efb36a0
+Author: Kyle Hagerman <hagermankyle96@gmail.com>
+Date:   Thu Oct 10 19:01:43 2019 -0600
+
+    fix medoids get edited training set method call
+
+commit 326c1e9fde2a38615a29fcdea4d218790313719d
+Merge: 0296c8e 2412a2a
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Thu Oct 10 18:44:40 2019 -0600
+
+    update with remote repo and fix merge conflict
+
+commit 0296c8e2706a95089d2b123cbbfda731c8c446e0
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Thu Oct 10 18:36:00 2019 -0600
+
+    fix test index filtering issue for enn, enn working well on segmentation data now
+
+commit 2412a2a9ac8061497663898e02a4487963cbd4d9
+Merge: 1bf668e 5a86ce5
+Author: Kyle Hagerman <hagermankyle96@gmail.com>
+Date:   Thu Oct 10 18:10:20 2019 -0600
+
+    Merge branch 'master' of https://github.com/brandonsladek/machine-learning-projects
+
+commit 1bf668e8c92774f04a6dff4624a03842133f87ae
+Author: Kyle Hagerman <hagermankyle96@gmail.com>
+Date:   Thu Oct 10 18:09:16 2019 -0600
+
+    take out ignore first row for knn_predict in knn class
+
+commit 5a86ce5ce9ad91d52cf0c258024ae92d702fe046
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Thu Oct 10 17:46:33 2019 -0600
+
+    remove wine data remove index line, fixes wine data indexing issue
+
+commit 98e351ac109137641755a1efd03b8083cf03a68d
+Merge: 6f54885 d156a72
+Author: Hagerman <f35m343@msu.montana.edu>
+Date:   Thu Oct 10 17:11:59 2019 -0600
+
+    Merge branch 'master' of https://github.com/brandonsladek/machine-learning-projects
+
+commit 6f54885ea171b691eac6f3115c6943afe96a5b42
+Author: Hagerman <f35m343@msu.montana.edu>
+Date:   Thu Oct 10 17:11:39 2019 -0600
+
+    running on cs barnard machine
+
+commit d156a7207c45fb7b4a00a5d057ec595f7459fb63
+Merge: 43e5fda 5d21e1e
+Author: Kyle Hagerman <hagermankyle96@gmail.com>
+Date:   Thu Oct 10 17:07:22 2019 -0600
+
+    Merge branch 'master' of https://github.com/brandonsladek/machine-learning-projects
+
+commit 43e5fda662f307a8d056384d0f6e381add245cae
+Author: Kyle Hagerman <hagermankyle96@gmail.com>
+Date:   Thu Oct 10 17:06:25 2019 -0600
+
+    deleted first row of both wine datas
+
+commit 5d21e1e3893f58fee1b9e06ef2c41799440468c2
+Merge: 00e1ae4 f75a105
+Author: Ryan <ryanhansen2222@gmail.com>
+Date:   Thu Oct 10 16:15:19 2019 -0600
+
+    Merge branch 'master' of https://github.com/brandonsladek/machine-learning-projects
+
+commit 00e1ae4cfe6f7ba919a7289599f23760910ebee3
+Author: Ryan <ryanhansen2222@gmail.com>
+Date:   Thu Oct 10 16:14:58 2019 -0600
+
+    Cleaned up preprocessor class. Ready for video
+
+commit f75a1050b18fc81609e365e34f9108a793dfbf65
+Author: Kyle Hagerman <hagermankyle96@gmail.com>
+Date:   Thu Oct 10 15:37:10 2019 -0600
+
+    deleted first row from forestfires data, and first three rows from segmentation data so that indexes are not screwed up
+
+commit 673f821b9eaa0c390144a3d0e8cc6d7c28932597
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Thu Oct 10 02:18:00 2019 -0600
+
+    clean up experiment runner and plot results again
+
+commit 9c1ad15d7288c3f0ca289db9070c7b4366e6637c
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Thu Oct 10 01:52:27 2019 -0600
+
+    clean up log statements and comments and unnecessary code, good results on segmentation knn
+
+commit 8a45e2d5595660ade73fd37086835c27ed72e6e2
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Thu Oct 10 01:29:26 2019 -0600
+
+    speed up test point filtering using numpy indexing, much, much, much faster now
+
+commit c6f6ccc74e945f324682b38b0589601da3405a3a
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Thu Oct 10 01:14:22 2019 -0600
+
+    fixed the IndexError issue, solution is pretty slow now though, can do better
+
+commit 8a2825bb1f2e702e2f23de4c5b0258bcee7690ba
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Thu Oct 10 00:52:10 2019 -0600
+
+    back to decent results on segmentation data
+
+commit 3d35815438884b8fe2baeccb23f10954be943d72
+Merge: ba84057 7d838bf
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Thu Oct 10 00:05:42 2019 -0600
+
+    fix merge conflict and some issues causing index errors
+
+commit ba84057ec84e88a8e03f7c8d46beb00909efe106
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Wed Oct 9 23:23:09 2019 -0600
+
+    fix issues with calling distance matrix method with CLASS column data, set experiment type for output report
+
+commit 7d838bf696056fd4c96cfc09fa2a803adcfe0309
+Merge: aba90ff ccd11c4
+Author: Kyle Hagerman <hagermankyle96@gmail.com>
+Date:   Wed Oct 9 22:33:15 2019 -0600
+
+    Merge branch 'master' of https://github.com/brandonsladek/machine-learning-projects
+
+commit aba90ffd69fb8d4623d06b4d5cf7f8b5875832b1
+Author: Kyle Hagerman <hagermankyle96@gmail.com>
+Date:   Wed Oct 9 22:30:46 2019 -0600
+
+    debugging knn and cross validator
+
+commit ccd11c46266b06da956ad54bac8d6779e97e7f39
+Merge: fc77468 833508c
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Wed Oct 9 22:29:39 2019 -0600
+
+    Merge branch 'master' of https://github.com/brandonsladek/machine-learning-projects
+
+commit fc774682af55d70fe9db95168034650ec2eb54d1
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Wed Oct 9 22:29:17 2019 -0600
+
+    add new method for getting all cross fold validation partitions at once, update experiment runner
+
+commit 833508c10cb1bf88e7daabe465b3a5582fc39645
+Author: Kyle Hagerman <hagermankyle96@gmail.com>
+Date:   Wed Oct 9 18:20:26 2019 -0600
+
+    k_medoids clear of errors for now. Have to fix results call as of my running, idk if it's been fixed yet
+
+commit 32eadefaa4d993f6245a7675c3243bd3882e3528
+Merge: 4f878d4 5148108
+Author: Ryan <ryanhansen2222@gmail.com>
+Date:   Wed Oct 9 12:22:52 2019 -0600
+
+    Merge branch 'master' of https://github.com/brandonsladek/machine-learning-projects
+
+commit 4f878d4fdc13b55cb305d05a41d896b2ba7a64ba
+Author: Ryan <ryanhansen2222@gmail.com>
+Date:   Wed Oct 9 12:22:24 2019 -0600
+
+    Add mse calc
+
+commit 514810809c5309cd3dceec14f484eab55272d0f5
+Merge: 2d4bfcf b27e22b
+Author: Thompson <p96t878@msu.montana.edu>
+Date:   Tue Oct 8 21:18:32 2019 -0600
+
+    Merge branch 'master' of https://github.com/brandonsladek/machine-learning-projects
+
+commit 2d4bfcf2e1d841af70e2f989dd30834c6f0a8917
+Author: Thompson <p96t878@msu.montana.edu>
+Date:   Tue Oct 8 21:14:50 2019 -0600
+
+    This is the CNN class, working at a ripping 99% and it is Daddy J's first push
+
+commit b27e22b5ad24478713ae21d35e71e54f166af403
+Merge: 1250eb9 d0505c7
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Tue Oct 8 18:19:31 2019 -0600
+
+    Merge branch 'master' of https://github.com/brandonsladek/machine-learning-projects
+
+commit 1250eb90d960d47628dbae335a04c59b2fdba469
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Tue Oct 8 18:19:27 2019 -0600
+
+    add notes in comments on what is causing the IndexError issue
+
+commit d0505c701101191bf41ba83750cc2cca386951ac
+Author: Kyle Hagerman <35347490+KyleHagerman@users.noreply.github.com>
+Date:   Tue Oct 8 12:40:08 2019 -0600
+
+    calling distance matrix without class column
+
+commit 55d418ec30608047aaac8a5ac905bd4377abfaba
+Author: Kyle Hagerman <35347490+KyleHagerman@users.noreply.github.com>
+Date:   Tue Oct 8 10:51:46 2019 -0600
+
+    Fixed two inconsistencies
+    
+    initial_medoids and while loop for finding k random indices
+
+commit 4538d25100f46c7fb039ce570f36056533d7f3e9
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Tue Oct 8 00:47:37 2019 -0600
+
+    calculate nn mean for regression, still mode for classification, still debugging nn_idx not in train data issue
+
+commit 269712a28d7db5340592eca2f5ef8107c37a62f5
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Mon Oct 7 00:49:46 2019 -0600
+
+    integrate preprocessor changes for normalizing data sets, fix various issues
+
+commit 041d5a473237ddde47d4f84da7757da5d6b7b159
+Merge: 70bbc80 3083dcc
+Author: Kyle Hagerman <hagermankyle96@gmail.com>
+Date:   Sun Oct 6 22:42:02 2019 -0600
+
+    Merge branch 'master' of https://github.com/brandonsladek/machine-learning-projects
+
+commit 70bbc80aa60b0fd744e1a9536bc0f9d1047d35d7
+Author: Kyle Hagerman <hagermankyle96@gmail.com>
+Date:   Sun Oct 6 22:41:28 2019 -0600
+
+    returning a dataframe now
+
+commit 3083dcc46779b5a498a619e33b09532b7faeda9a
+Author: Ryan <ryanhansen2222@gmail.com>
+Date:   Sun Oct 6 22:22:25 2019 -0600
+
+    Preprocess complete. Assigns metric and normalizes cont. and categorical data
+
+commit fd8afc8b80423017fba82a6d5021df5162c7c4b3
+Merge: ca05143 a3e99a9
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Oct 6 21:53:07 2019 -0600
+
+    Merge branch 'master' of https://github.com/brandonsladek/machine-learning-projects
+
+commit ca051437b20b82c6e9e4db2466bc9a0c6f7a6e30
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Oct 6 21:53:03 2019 -0600
+
+    fix issue in utilities
+
+commit a3e99a926f0686cf8cea0943bd6d382a1e83dcf1
+Author: Kyle Hagerman <hagermankyle96@gmail.com>
+Date:   Sun Oct 6 21:38:59 2019 -0600
+
+    copied distance matrix function
+
+commit 30536257bd0c67d912e5ed26d901fa5abbf3f64e
+Author: Kyle Hagerman <hagermankyle96@gmail.com>
+Date:   Sun Oct 6 21:31:25 2019 -0600
+
+    KMedoids pretty fleshed out, untested however
+
+commit 02cb27637ebf77137825eb72bc6ef3fc5beba32c
+Merge: 2c20aeb aa59258
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Oct 6 21:12:38 2019 -0600
+
+    Merge branch 'master' of https://github.com/brandonsladek/machine-learning-projects
+
+commit 2c20aeb500d57c83c1f1ffce39d1717d67c59e0a
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Oct 6 21:12:26 2019 -0600
+
+    add min_max method to utilities, remove from k means clustering
+
+commit aa5925826673e84450674f6e853e0fc825214f39
+Merge: 9da14cc 9736968
+Author: Ryan <ryanhansen2222@gmail.com>
+Date:   Sun Oct 6 19:17:14 2019 -0600
+
+    Merge branch 'master' of https://github.com/brandonsladek/machine-learning-projects
+
+commit 9da14cc30fbab75efa013d1ccf2ed22fbb1feb96
+Author: Ryan <ryanhansen2222@gmail.com>
+Date:   Sun Oct 6 19:16:55 2019 -0600
+
+    preprocess normalization
+
+commit 9736968e76c87c1e009603ae0cc004eed19733e5
+Merge: 8fe5db8 2a3e62f
+Author: Kyle Hagerman <hagermankyle96@gmail.com>
+Date:   Sun Oct 6 19:00:35 2019 -0600
+
+    Merge branch 'master' of https://github.com/brandonsladek/machine-learning-projects
+
+commit 8fe5db8e68889bb576540a01bf97c990675d4f00
+Author: Kyle Hagerman <hagermankyle96@gmail.com>
+Date:   Sun Oct 6 18:59:50 2019 -0600
+
+    First stab at k-medoids
+
+commit 2a3e62fea3f022dda53230775f69f0ed45626d21
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Oct 6 14:30:44 2019 -0600
+
+    add detailed comments and documentation of public methods throughout application
+
+commit 5c7e074d5961221155b2a8e0c193c6fba8878b1c
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Oct 6 04:09:32 2019 -0600
+
+    various fixes and improvements to preprocessor, fix wine prep issue from datalayer, add some good plots
+
+commit 46c3030c1e48875cbc46a63b3f8ec70c8b12531f
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Oct 6 02:42:43 2019 -0600
+
+    preprocessing forest fires data using conversion dictionary approach
+
+commit 676d0328dd00968a9e1db36f853725f97adddf9b
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Oct 6 02:10:53 2019 -0600
+
+    full experiment run through with car data, better exception handling for unknown data set name
+
+commit 7efef8b62f0f2f75d996d44e5bffac1832843d49
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Oct 6 02:02:33 2019 -0600
+
+    preprocessing car data using conversion dictionary approach
+
+commit dc236faefcc89dd70e8dc6e628603fb930ca085c
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Oct 6 00:53:09 2019 -0600
+
+    random stuff, saved plot of consecutive k values 1-20 on knn abalone data
+
+commit b7a4965315ef6c35164c9c97cc20c67ccdc06589
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sat Oct 5 23:26:55 2019 -0600
+
+    add results plotter class for plotting relationship between parameter values and prediction results
+
+commit 12c5574b651ad10738f15b357a3a5fb8a7d6dfad
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sat Oct 5 21:39:25 2019 -0600
+
+    edited knn working well from experiment runner with abalone and wine data
+
+commit c30d6669f916b94dbc5b2f0d7807ad4bfc1ff2dd
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sat Oct 5 21:18:33 2019 -0600
+
+    editing working well for edited training set, very fast
+
+commit 781e53c31b2a729a3d39b5669a4af31ccfd232e6
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sat Oct 5 17:04:13 2019 -0600
+
+    first full experiment run with k means knn, super shitty results, issue with index errors
+
+commit 4c322ba8cfb53cbbdd52f9f9d682fd82f0a204db
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sat Oct 5 16:33:39 2019 -0600
+
+    can get cluster centroids with highest frequency class values for consumption by knn
+
+commit bd67e7bea8224fdd71faf193b394c34b86ad8398
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sat Oct 5 02:57:37 2019 -0600
+
+    k means clustering abalone data quickly with convergence past configured threshold
+
+commit e9fa1bbf58e890eeb62e6012e516f098d55e6260
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sat Oct 5 02:02:38 2019 -0600
+
+    k means clustering working well enough on wine data
+
+commit 77d823ae5bc61b44b5fb1076ab00569a8d3f3b46
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sat Oct 5 01:24:26 2019 -0600
+
+    clustering seems to be converging on wine data with 20 clustering iterations, pretty slow though
+
+commit 2b3bf071705b7f5bfc0f94cc24083a3d75bb339b
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sat Oct 5 00:38:52 2019 -0600
+
+    k means clustering working better, fixed some bugs, still not great though...
+
+commit d6de02fd2e14cd3fc147b88a0f0e7770f7b86cdc
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sat Oct 5 00:11:53 2019 -0600
+
+    k means clustering sort of working, not very fast, and not checking for convergence yet
+
+commit 9fa652a309dc4125bc5e14ba99f250802acd33c5
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Fri Oct 4 00:59:48 2019 -0600
+
+    generating distance matrix to get distances from every point to every cluster centroid
+
+commit 4f9881d4240381bce66015692b58906938f538d8
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Thu Oct 3 23:27:44 2019 -0600
+
+    successfully running knn on wine data with various parameters, catching IndexErrors
+
+commit a2ae067476e3001fe88833ae995b321a2d2da9f2
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Thu Oct 3 22:37:56 2019 -0600
+
+    running knn on abalone data with increasing k values and printing all results showing performance impact
+
+commit 7f84427bf7dd8e34e8aef16c64bb79c1e5657324
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Thu Oct 3 22:16:20 2019 -0600
+
+    run experiments on list of data sets and list of algorithms with various parameters from ParameterTuner
+
+commit 116c5c050447993d177119e68998251719c1ac43
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Thu Oct 3 00:59:09 2019 -0600
+
+    better output formatting when running experiment, show average accuracy of predictions when finished
+
+commit 980deacea0e5551bee677d679de9e8cdd9201c6e
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Thu Oct 3 00:13:25 2019 -0600
+
+    running full cross validation on abalone data and printing accuracy results
+
+commit aa63afa089de74c3650771a930e787b979eb9c8b
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Wed Oct 2 23:35:15 2019 -0600
+
+    running full cross validation knn on abalone data with no errors
+
+commit 993a9d5f3edbd7c2b5242e4f79f6ad68c328ffdd
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Wed Oct 2 23:05:00 2019 -0600
+
+    handle no unique mode error, add tests for verifying we return a random mode
+
+commit 2310337e80a55681e88ec7aa783495c3c441cf86
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Tue Oct 1 23:49:31 2019 -0600
+
+    show verbose debugging output when running experiment
+
+commit 3c26bc3c9178b2edff9e2d58edf78bb0a7e56fcc
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Tue Oct 1 23:44:46 2019 -0600
+
+    progress on running full experiment on abalone data with cross validation, catching mode stats error
+
+commit 6f6d873475dcfa2e813a4e0a88b9159ac7f3448b
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Tue Oct 1 23:02:01 2019 -0600
+
+    experiment runner running experiment on abalone data and doing the things
+
+commit ea4eb912f06f47148a253c257231965c05ce4730
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Tue Oct 1 22:45:02 2019 -0600
+
+    add experiment runner class skeleton
+
+commit e975fd43fdbdae8d4b568b254d21188fb9fc8a2b
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Tue Oct 1 01:14:05 2019 -0600
+
+    wrap prediction results output in DEBUG boolean for toggling output printing
+
+commit cb7e9aaf7a2dc910e05da849416a5399e34363d1
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Tue Oct 1 01:06:20 2019 -0600
+
+    rename utils directory to utilities and clean up formatting of knn output
+
+commit 33fe968b091e9174fea00e721318ce50ee0022bd
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Tue Oct 1 00:45:14 2019 -0600
+
+    clean up k_nearest_neighbor script and add comments
+
+commit bac17ab4be3a374283d3ddc2d7fb6a5d8a09c1ee
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Tue Oct 1 00:23:22 2019 -0600
+
+    100 predictions in only 0.6 minutes! 10x faster than before
+
+commit a7cd667151f679ae455111e7355c3e428520af19
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Mon Sep 30 23:22:04 2019 -0600
+
+    can use this scipy distance library stuff for quickly calculating distances, booyah
+
+commit a24edcd2ac25a9281418fe1bce8d33f20590f573
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Mon Sep 30 22:44:29 2019 -0600
+
+    better print formatting, ran on 100 instances without error
+
+commit 7133ecbaa97d8a26cbe5f4daf69a94083dfc2d09
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Mon Sep 30 22:24:35 2019 -0600
+
+    show timings for knn methods, run batches of knn on abalone data, accuracy decreases with increasing k as expected
+
+commit b1c0b6702059c5591940a7c632511609fd99e2c6
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Sep 29 17:03:10 2019 -0600
+
+    enn changes, regular knn prediction is taking way too long, need to optimize somehow
+
+commit 01208c685db9b4b316ec8a2b09b627698138d41e
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Sep 29 16:35:29 2019 -0600
+
+    add skeleton for results class
+
+commit 4fe8127c9df74d5829e949d4b3c21caf763ec34f
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Sep 29 02:53:13 2019 -0600
+
+    add UML diagram to notes directory
+
+commit 0198e43562f0779eb9447b68190fad7cd808a909
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Sep 29 02:46:22 2019 -0600
+
+    port cross validator code from project-1 into project-2, add unit tests
+
+commit 53047ec9ebb7b003c7e423ff5eaa6fff70596e65
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Sep 29 02:11:39 2019 -0600
+
+    add training set method skeletons to cnn and enn classes
+
+commit f452adbc91a5ed56e5569d275baf01e1e963cada
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Sep 29 02:01:55 2019 -0600
+
+    add class skeletons for edited and condensed knn and setup inheritance structure
+
+commit 8afb3ac81572af62d01011a3e5829a385b34306b
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Sep 29 01:43:23 2019 -0600
+
+    clean up preprocessor class and write skeleton
+
+commit 243eba330ee2fe5532248b59106c2dc69852e091
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Sep 29 01:22:17 2019 -0600
+
+    randomly generating k centroids for initial iteration of k means clustering
+
+commit 1ed5767859ae3c9f3353884827b071495b34692c
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Sep 29 00:09:19 2019 -0600
+
+    update wine data files and fix data api to read them into one data frame
+
+commit 814088baaee9d1f2f6d73652b6ccde4a032c7246
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Fri Sep 27 00:23:48 2019 -0600
+
+    add design document tex to notes directory
+
+commit 525e142cedce00751d6aea64f7832c824c79edf7
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Wed Sep 25 21:07:49 2019 -0600
+
+    add tests for verifying knn predictions for all data sets, 3 tests failing still...
+
+commit 2bd5ab9e8c1433d3380f8647f04e29b5448cc8b8
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Wed Sep 25 00:56:07 2019 -0600
+
+    knn predictions working with predict_class method
+
+commit f9609e3c4d0836c8766b7b937cacafab86d4181f
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Tue Sep 24 23:50:36 2019 -0600
+
+    knn test working for verifying get nearest neighbors method
+
+commit 8381d26a5a8352e84f1f48aac25bc5d7cee15dbe
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Tue Sep 24 23:26:35 2019 -0600
+
+    knn printing list of distance tuples, imports are being weird...
+
+commit fa9f58a1dbecef3ce4c922bade83b7019dd18637
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Tue Sep 24 22:57:22 2019 -0600
+
+    added distance_functions script, get euclidean distance working on abalone data
+
+commit 7fcd84bdaa62c9c9610f0bbfebb1f4dbd563e964
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Sep 22 21:35:16 2019 -0600
+
+    add class skeletons and input/output comments for all algorithms
+
+commit da8e8e87ef68b44d41a6d34ea693cfe13bc5d022
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Sep 22 21:07:40 2019 -0600
+
+    add class skeletons for k-nearest-neighbor and k-means-clustering
+
+commit 3e54abb7f4f55ad48d648111f778d07e7f8a5344
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Sep 22 21:01:38 2019 -0600
+
+    add class skeleton for ParameterTuner
+
+commit 5eb011fd32da4e84ec07160ad4bbc219409bbc28
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Sep 22 20:57:15 2019 -0600
+
+    copy over preprocess class from project-1, keep useful methods in class skeleton
+
+commit b05d250c55197ed1f7ccd84534356dca804fbfdd
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Sep 22 20:47:03 2019 -0600
+
+    add view_data script for easily viewing data sets from command line
+
+commit ea16d630381a2bcc89e6204843c4a1570da91837
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Sep 22 20:40:29 2019 -0600
+
+    hook stuff still not working but oh well... moving on for now
+
+commit 0913fd887cf176d499358ad3d0135746dd7f7e0a
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Sep 22 20:21:08 2019 -0600
+
+    test again
+
+commit 1dd863263d7b54f2b311a74c1661a35c15f9f27f
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Sep 22 20:17:01 2019 -0600
+
+    add bash scripts for pre commit hook, will this fail?
+
+commit 79efd0076827c7d614bf087316280760e17ae271
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Sep 22 20:07:10 2019 -0600
+
+    will this commit fail with the new hook?
+
+commit bdbabe83a1f26162ad23191788639f14b7916e5a
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Sep 22 19:57:28 2019 -0600
+
+    add test directory with tst_runner even though it does not work yet...
+
+commit 9ac6b9156fafb923f02602a6b6c3d07ffe5211da
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Sep 22 19:23:25 2019 -0600
+
+    all data_api tests passing for getting raw data frames for all data sets
+
+commit 4e78d7a1465ca72d1d51484a6e6fd0f36110f4fe
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Sep 22 17:19:29 2019 -0600
+
+    add data_api and data_api_tests, first test passing for abalone data shape
+
+commit 59795d5a5b99a5d57452c102fcd3e88e6c66231e
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Sep 22 16:41:48 2019 -0600
+
+    add directories and files for various scripts
+
+commit a598a32c1677b2576cb400eeb6041e5c59fca391
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Sep 22 16:23:04 2019 -0600
+
+    move design_document into design directory
+
+commit 04111dd66d612076f599bca525e17ec82325a45c
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Sep 22 16:21:35 2019 -0600
+
+    add project-2 data directory with data files and add to todo and design_document
+
+commit 926ae23b8b8e2a9e1afb1349db4617e2b368e502
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Sep 22 15:55:35 2019 -0600
+
+    initial commit with project-2 directory and todo.txt file
+
+commit 04e88165ca2896ae22cb071d61690f5eb4aaa7ea
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Fri Sep 13 10:44:06 2019 -0600
+
+    run all experiments using all data sets - regular and scrambled
+
+commit 250ab6d96d71bc510a6e42bc0089e4dc961c0e6c
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Fri Sep 13 00:42:19 2019 -0600
+
+    add documentation to more scripts
+
+commit 330902f474bba5bf211d8af0e2bbea34c8e9c9e1
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Fri Sep 13 00:26:52 2019 -0600
+
+    add documentation to cross_validation and preprocess scripts
+
+commit 5da3f63f1e884c1a4ad4258927dcd7dfe904c054
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Fri Sep 13 00:05:26 2019 -0600
+
+    add documentation for naive_bayes script
+
+commit 9d234f933c2470eec170bda9bff03fe845b666b9
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Thu Sep 12 23:05:09 2019 -0600
+
+    improved glass and iris data performance with 2-bin approach based on average column values
+
+commit 9672337d264587243128cf3e0c5cebfda7c594c4
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Thu Sep 12 22:46:14 2019 -0600
+
+    drop ID NUMBER column from breast_cancer data, not supposed to use it
+
+commit 99afcf0673cba42dd8b2313c4815a72d82a3547f
+Merge: 38f034b f82250e
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Thu Sep 12 22:30:47 2019 -0600
+
+    Merge branch 'master' of https://github.com/brandonsladek/machine-learning-projects
+
+commit 38f034b06494c4bdf3ef839283db57a50b6d3958
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Thu Sep 12 22:30:43 2019 -0600
+
+    shuffle cross validation indexes list, better formatting for printing experiment stuff
+
+commit f82250ee9098ec19ed75622fa623c97d6a978164
+Author: Ryan <ryanhansen2222@gmail.com>
+Date:   Thu Sep 12 20:27:52 2019 -0600
+
+    bin size 2
+
+commit cda3ef6df0db61c2d5acf67191a37c94a7ebf6a4
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Thu Sep 12 19:29:45 2019 -0600
+
+    add documentation to data_api script and move data notes to dedicated txt file
+
+commit 8ce508c31c60a97c7e0a68f48c8ea193d3f09506
+Merge: 1e22dfb af0403e
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Thu Sep 12 19:14:20 2019 -0600
+
+    Merge branch 'master' of https://github.com/brandonsladek/machine-learning-projects
+
+commit 1e22dfbfc20ea6086948e84448f28a29239357dd
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Thu Sep 12 19:13:49 2019 -0600
+
+    add documentation to experiment runner script
+
+commit af0403eece1aa7d2daddd8eb566f7746944c6a9d
+Author: Kyle Hagerman <hagermankyle96@gmail.com>
+Date:   Thu Sep 12 19:02:09 2019 -0600
+
+    Fixing Mean Squared Error
+
+commit 11c69ac410d87152a8adfc49ad7c5f7654a35cd2
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Thu Sep 12 02:21:45 2019 -0600
+
+    clean output for running all experiments and comparing results
+
+commit 5ca1c7e419c1bdaf9b79e9f4278403f155bca014
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Thu Sep 12 01:39:15 2019 -0600
+
+    print average test set size along with average loss function results
+
+commit c2b8a18749eee467e139c5c41a41210f7e63dd07
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Thu Sep 12 01:26:39 2019 -0600
+
+    calculate average loss function values and print results
+
+commit df0a546ec3648346c9b1fdfe6348496306549cbc
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Thu Sep 12 01:08:31 2019 -0600
+
+    all scrambled data experiments are running successfully, breast cancer data has an issue, added try/catch
+
+commit 2159eae88a96a56083a7e71ae93873b90c7c7a80
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Thu Sep 12 00:31:34 2019 -0600
+
+    experiments successfully running on all regular data sets
+
+commit 95c8861a70e22418fe00188e3ab6922bc650523c
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Wed Sep 11 23:56:27 2019 -0600
+
+    fix preprocess issues with binning data - 0 values go in bin 1
+
+commit 976527722edcd7f80caafc44f4f09cad2abca59c
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Wed Sep 11 23:22:29 2019 -0600
+
+    fix preprocess issue with trying to bin the CLASS column
+
+commit fb659d09816b153e9b6a780da12afe771cb4aa35
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Wed Sep 11 22:59:18 2019 -0600
+
+    remove rows with missing values from breast cancer data, add unit test
+
+commit 388c4b774f128a386b81fe56a203841c6261106c
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Wed Sep 11 21:54:59 2019 -0600
+
+    fix issues with preprocess script - experiment runner working again
+
+commit cc9494d435fea11fdac9d6d192434ff734773ff3
+Merge: a8281e8 0a2a039
+Author: Ryan <ryanhansen2222@gmail.com>
+Date:   Wed Sep 11 19:46:11 2019 -0600
+
+    Fixed Bug hopefully
+
+commit a8281e8b2108cb288294f143a25d0ab6d0748b46
+Author: Ryan <ryanhansen2222@gmail.com>
+Date:   Wed Sep 11 19:35:24 2019 -0600
+
+    Potentially Fixed DAS BUG
+
+commit 0a2a039dc5232593addcc237241b63a7fbb965bd
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Tue Sep 10 02:03:31 2019 -0600
+
+    decent performance on regular house votes data set
+
+commit 364c90b36c14c1d9e9cb2c909ae905f5d888ed20
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Tue Sep 10 01:52:06 2019 -0600
+
+    preprocess data sets when running experiments
+
+commit df68c2189fdf6ba9cdbb094f496e0341069f8012
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Tue Sep 10 00:58:01 2019 -0600
+
+    running naive bayes on all 5 regular data sets
+
+commit fbdb9e0f0a7616e9f0015c44d0362cf8cf908696
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Tue Sep 10 00:30:50 2019 -0600
+
+    generating class predictions for all instances in house_votes data based on cv-fold training sets
+
+commit ff36ba3cf1c3cbe3570452d83dd940fd9c9c0f83
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Mon Sep 9 23:38:23 2019 -0600
+
+    naive bayes - generate dictionary of class predictions for given test set instances
+
+commit d835638ca280dbebf05ee7630a4dc44918898381
+Merge: 3bf049a 063c198
+Author: Ryan <ryanhansen2222@gmail.com>
+Date:   Mon Sep 9 23:17:30 2019 -0600
+
+    Fixed preprocessing
+
+commit 3bf049ab9c4c4c288bdb14ba3f5289f6a5418b48
+Author: Ryan <ryanhansen2222@gmail.com>
+Date:   Mon Sep 9 23:05:09 2019 -0600
+
+    Preprocessing works
+
+commit 063c198bbbf765decc6ccb356f444e165e5b211c
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Mon Sep 9 22:57:18 2019 -0600
+
+    run experiment skeleton mostly there, filling cross validation results dictionary with bogus performance results
+
+commit 5cb50b2e4fddc407a1b63fd9c7a0946206b9d582
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Mon Sep 9 22:08:00 2019 -0600
+
+    add class skeletons for experiment_runner and tests scripts
+
+commit a03a8c7a14ff5e8481a849dd090117819165f0ea
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Mon Sep 9 21:56:30 2019 -0600
+
+    add tests for cross validation get training/test set methods, add gitignore, delete pyc file
+
+commit 7e148c742503197f0e873b8eb9915b3cc3b55eb4
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Mon Sep 9 20:16:33 2019 -0600
+
+    add subset size checks in cross validation tests, update todo.txt
+
+commit 81f797b31b81b5e32d93dedd96c65e2d19824d48
+Merge: ad1da50 08fd276
+Author: Jared Thompson <j.a.thompson22@gmail.com>
+Date:   Mon Sep 9 19:58:35 2019 -0600
+
+    Merge branch 'master' of https://github.com/brandonsladek/machine-learning-projects
+
+commit ad1da50eef8d20fae135c340c9c2c88fc7174272
+Author: Jared Thompson <j.a.thompson22@gmail.com>
+Date:   Mon Sep 9 19:58:19 2019 -0600
+
+    Final changes to 10x multiplier
+
+commit 08fd27601d34204e6908095180d3cd61850e751f
+Author: Kyle Hagerman <hagermankyle96@gmail.com>
+Date:   Mon Sep 9 19:46:24 2019 -0600
+
+    Results testing attempt... pandas not installed for me -Kyle
+
+commit 7d0d60b6c7a814eaf6fd3d36b2f3966cc0c72261
+Author: Kyle Hagerman <hagermankyle96@gmail.com>
+Date:   Mon Sep 9 19:45:25 2019 -0600
+
+    Pushing
+
+commit 9d138b7f0c0abb981f4a5b26892e2805886dde0c
+Merge: 7467614 49acb9f
+Author: Kyle Hagerman <hagermankyle96@gmail.com>
+Date:   Mon Sep 9 19:21:59 2019 -0600
+
+    Merge branch 'master' of https://github.com/brandonsladek/machine-learning-projects
+
+commit 7467614c0683832455fd3e420297320dd22db1af
+Author: Kyle Hagerman <hagermankyle96@gmail.com>
+Date:   Mon Sep 9 19:21:21 2019 -0600
+
+    First push of loss functions
+
+commit 49acb9f73a5f5255766b712411c293ff3cdefdf5
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Mon Sep 9 19:20:00 2019 -0600
+
+    add cross validation tests for get indexes list, add utility method for getting specific row class value
+
+commit b71b55ad234375d95d171d4347d3b39440505e27
+Author: Jared Thompson <j.a.thompson22@gmail.com>
+Date:   Mon Sep 9 18:13:25 2019 -0600
+
+    JT updates on cross validation
+
+commit 41f43ca8cdaf36e0e809e68613200c5f4e4398a5
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Mon Sep 9 18:01:22 2019 -0600
+
+    add directories for results processor scripts
+
+commit c3489e3b215c506c92962b17c7ec8e27005ef864
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Mon Sep 9 01:21:30 2019 -0600
+
+    update todo.txt
+
+commit ee695917a3d30e303d5f8f5423c9d9357b43c162
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Mon Sep 9 01:18:05 2019 -0600
+
+    add unit tests for data scrambling remaining data sets, add comments in data scrambling method
+
+commit 4c2f0414e0c154d23a15c39f5725a20a79d46a19
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Mon Sep 9 01:02:20 2019 -0600
+
+    data scrambling method now works with any data set by using the column index to column name converter
+
+commit d3b1c976e577560de102e961eade2ce4c254fe3b
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Mon Sep 9 00:27:09 2019 -0600
+
+    fix data scrambling method and add unit test to assert data frames are not equal
+
+commit a709bf176845435615260b0a5d7f019ecccfd5df
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Mon Sep 9 00:00:50 2019 -0600
+
+    data scrambling method is working - only works with numeric column keys though
+
+commit 1a5d173bc03923f8b63ab16daa4e567a82e7bc98
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Sep 8 21:41:48 2019 -0600
+
+    update todo.txt file
+
+commit 6ed9230f2fe517f2a77a6305a2bf41d055cc953e
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Sep 8 21:38:04 2019 -0600
+
+    add get predicted class unit test for breast cancer data, still something wrong...
+
+commit f00d7141ae74a49d515815325665ab257e3982d4
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Sep 8 21:20:20 2019 -0600
+
+    the step 3 stuff for actually predicting the class for a test instance is almost working...
+
+commit c8ea1f4a2a97c7e7561b9fcbd0dc76ada9af52b3
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Sep 8 20:22:20 2019 -0600
+
+    write unit test for attribute value likelihoods method, update todo.txt file
+
+commit 3ddb3666b55f6725689891b6948c1ecf33bf253c
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Sep 8 19:16:44 2019 -0600
+
+    implemented method for calculating unique attribute value counts for given column
+
+commit 4da4830ae203defaae09217b01e32b05bc21ff00
+Author: Ryan <ryanhansen2222@gmail.com>
+Date:   Sun Sep 8 16:46:58 2019 -0600
+
+    preprocessing template and ideas
+
+commit 44acc4340ec7811f491c054ebc7422ff19db0484
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Sep 8 15:53:53 2019 -0600
+
+    add skeleton method for attribute value likelihood method
+
+commit ab4f4a6fd64d86739b843a45deffe8c82de6de62
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Sep 8 15:12:33 2019 -0600
+
+    add names to TO DO items
+
+commit a77f7f344b8d15025a4e9629be7ce109ebfddf7d
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Sep 8 14:54:24 2019 -0600
+
+    add Preprocessing class skeleton and TO DO txt file with list of items
+
+commit 6a85b4f7f3fd067c68c2e7edde48959db45e7904
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sun Sep 8 02:22:11 2019 -0600
+
+    add method and unit tests for getting class data frames
+
+commit 842dc80c4c86ee3db4e7987cfcccc2c51ea2ecf1
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sat Sep 7 23:19:43 2019 -0600
+
+    add unit tests for get_likelihood method in naive bayes implementation
+
+commit 096bdbb5d5fb30d4017ad120e9485109c46ae245
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sat Sep 7 22:40:07 2019 -0600
+
+    add row and column count assertions in data_api_tests
+
+commit 5708d6572b725dde8a5ceca1392f9dbcc5c03168
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sat Sep 7 22:24:46 2019 -0600
+
+    add view_data script for viewing data matrices from command line
+
+commit 59f7f267fea9425a88143587c79db98660cf4ba6
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sat Sep 7 21:59:07 2019 -0600
+
+    add unit test for breast cancer data and fix class issues, test passing
+
+commit 2dbb7a3645c2646227eee364403139b7b424bcf5
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sat Sep 7 21:35:46 2019 -0600
+
+    convert data_api to class format for unit testing
+
+commit 58cf8359e092ec0308acbae3baff362bbb636361
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sat Sep 7 21:22:28 2019 -0600
+
+    restructure code and split into logical directories, add test directories
+
+commit 5d23f27a01d5f4e335b15cc30af0f10f7ccc5c74
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sat Sep 7 20:48:04 2019 -0600
+
+    clean up preprocess script and add comments
+
+commit ac973fe4a5160fcc4fb4eb411eb53c6a24cbca90
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sat Sep 7 18:30:09 2019 -0600
+
+    read data matrices into pandas data frames with labels
+
+commit 22fd9a45e06cda0d8d7593488fcecc98e815e718
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sat Sep 7 17:25:03 2019 -0600
+
+    add notes on missing values and how to handle them
+
+commit 94ed085db41bf2c9850a8088eeab755c871c61ca
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sat Sep 7 16:34:33 2019 -0600
+
+    add notes on each data set at beginning of preprocess script for easy reference
+
+commit b341f7d13463b155bf20a1bc56c3ffd91b760da7
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sat Sep 7 16:05:06 2019 -0600
+
+    replace data with folder from D2L, update preprocess script
+
+commit f003374ceae7a84e17e135f9c9e029fd2d80484c
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Tue Sep 3 10:40:45 2019 -0600
+
+    add clean_data method to preprocess script, just iterate and print data for now
+
+commit a89f2d577620568234973de67fd8ba3c208789aa
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sat Aug 31 22:52:36 2019 -0600
+
+    add preprocess script - nothing in it yet
+
+commit e3667fb7627a010ff2ded45063adbb79c9b03cb6
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sat Aug 31 22:45:46 2019 -0600
+
+    move everything into project-1 directory
+
+commit ba47cf4d0e930f541adb03d8a0509d7f5b6880f5
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sat Aug 31 22:44:49 2019 -0600
+
+    move data-urls.txt file to data directory
+
+commit 03866181b892fc28ed8af96fcf331ab016f492f3
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sat Aug 31 22:41:08 2019 -0600
+
+    add data directory for data files
+
+commit b7ff4c623ecfbac03486654f0b0f3238454744c2
+Author: brandonsladek <brandonsladek@gmail.com>
+Date:   Sat Aug 31 22:09:21 2019 -0600
+
+    add text file for data set urls from UCI
+
+commit 3b17d2168022a4e244b4bd8193e23fc5ad3ff35a
+Author: Brandon D. Sladek <brandonsladek@gmail.com>
+Date:   Sat Aug 31 21:50:12 2019 -0600
+
+    Initial commit
